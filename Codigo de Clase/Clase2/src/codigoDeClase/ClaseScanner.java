@@ -84,11 +84,10 @@ public class ClaseScanner {
 
     public static void entradaDelimiter(){
         // Crear un Scanner que utiliza el guión como delimitador
-        Scanner scanner = new Scanner(System.in);
+        Scanner scannerDel = new Scanner(System.in);
 
         System.out.print("\033[33m"+"\nIngrese lenguajes de programacion separados por / : "+"\u001B[0m");
-
-        Scanner scannerDeli = new Scanner(scanner.next());
+        Scanner scannerDeli = new Scanner(scannerDel.next());
 
         // Configurar el delimitador
         scannerDeli.useDelimiter("/");
@@ -100,6 +99,7 @@ public class ClaseScanner {
         }
 
         // Cierre del Scanner
+        scannerDel.close();
         scannerDeli.close();
     }
 }
