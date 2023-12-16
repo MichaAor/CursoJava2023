@@ -18,6 +18,7 @@ public class EjerciciosClase {
        *    e) Mayor o igual que
        *    f) Menor o igual que
        *4) Enseñar las tablas de multiplicar del 1 al 10
+       *5) Muestra la tabla de multiplicar de un número introducido por teclado.
        */
 
     }

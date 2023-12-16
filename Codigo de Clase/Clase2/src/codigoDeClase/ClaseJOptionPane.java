@@ -1,8 +1,6 @@
 package codigoDeClase;
 
 import javax.swing.*;
-import java.util.InputMismatchException;
-import java.util.Scanner;
 
 public class ClaseJOptionPane {
     public static void main(String[] args) {
