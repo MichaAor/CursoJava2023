@@ -66,7 +66,7 @@ public class EstructuraDeControl {
             contDoWhile++;
         } while (contDoWhile <= 5);
 
-        // Etiquetas
+        // Etiqueta con Continue
         System.out.println("\033[36m" + "\n--ETIQUETAS CONTINUE--" + "\u001B[0m");
         for1:for (int i = 0; i < 5; i++) {
             System.out.println();
@@ -78,7 +78,8 @@ public class EstructuraDeControl {
             }
         }
 
-        System.out.println("\033[36m" + "\n--ETIQUETAS BREAK--" + "\u001B[0m");
+        // Etiqueta con Break
+        System.out.println("\033[36m" + "\n\n--ETIQUETAS BREAK--" + "\u001B[0m");
         for2:for (int i = 0; i < 5; i++) {
             System.out.println();
             for (int j = 0; j < 5; j++) {
