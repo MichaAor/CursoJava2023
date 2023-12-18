@@ -12,17 +12,17 @@ public class EjerciciosClase {
 
         int centimetros= 5;
         double metros= centimetros*0.01;
-        System.out.println(centimetros+" equivalen a " +metros+" metros" );
+        System.out.println(centimetros+" centimetros equivalen a " +metros+" metros" );
 
      /*   b) De Celsius a Farenheit => {(0°C × 9/5) + 32 = 32F}*/
         int celsius=10;
         double farenheit=(celsius*9/5)+32;
-        System.out.println(celsius +" equivalen a " +farenheit + "farenheit");
+        System.out.println(celsius +" celsius equivalen a " +farenheit + " farenheit");
 
     /* c) De Dolar a Peso => {1 Dolar = 1100 Pesos}*/
         double dolar=80;
         double pesos=dolar*1100;
-        System.out.println(dolar+ " equivalen a " +pesos +" pesos");
+        System.out.println(dolar+ " dolares equivalen a " +pesos +" pesos");
 
 
         /* 2) Declarar un numero y mostrar si es par o impar usando el operador 'ternario'*/
@@ -56,8 +56,8 @@ public class EjerciciosClase {
         else System.out.println("la variable 1 que vale " + variable1 + " es mayor a la variable 2 que vale " + variable2);
 
         /*4) Enseñar las tablas de multiplicar del 1 al 10*/
-        for(int i= 1; i<11; i++){
-            for (int j= 1; j<11; j++){
+        for(int i= 1; i<=10; i++){
+            for (int j= 1; j<=10; j++){
                 System.out.println(i+"X"+j + "=" + (i*j));
             }
         }
@@ -67,8 +67,8 @@ public class EjerciciosClase {
         System.out.print("Ingrese un numero: ");
        int numero1 = scanner.nextInt();
 
-        for (int i=1; i < 11; i++){
-            System.out.println(i +"X"+numero1 + "=" + (numero1*i));
+        for (int i=1; i <= 10; i++){
+            System.out.println(numero1+"X" +i+ "=" + (numero1*i));
         }
     }
 }
