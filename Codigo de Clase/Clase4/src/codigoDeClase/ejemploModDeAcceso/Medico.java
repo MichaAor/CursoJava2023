@@ -60,4 +60,21 @@ public class Medico {
         System.out.println("Hola, soy el medico " + this.nombre + " " + this.apellido
                 + "con numero de matricula  " + this.matricula);
     }
+
+    
+    //? Defiinicion de metodo: Se declara dentro de una clase siempre. Su alcance sera marcado por los modificadores de acceso y si es
+    //? static o nonStatic. Puede o no tener parametros de entrada de datos.
+
+    // modificadorDeAcceso static/nonStatic TipoDeRetorno nombreDelMetodo(TipoDeDato parametro, TipoDeDato parametro2){
+        //Instrucciones del metodo
+        //return datoARetornar; //*En caso de NO TENER DECLARADO UN 'TipoDeRetorno' de tipo 'void', se debe retornar algun valor.    
+    // }
+
+    //?Invocacion de metodo: Veremos los 2 casos correspondientes
+    //? static: Para acceder al metodo NO tendremos que crear un objeto o instanciar la clase, se podra acceder directamente.
+    //      NombreClase.metodoAInvocar(TipoDeDato parametro1,TipoDeDato parametro2);
+
+    //? nonStatic: Para acceder al metodo tendremos que crear un objeto o instanciar la clase.\
+            //instancia de 'NombreClase'.
+    //      instanciaNombreClase.metodoAInvocar(TipoDeDato parametro1,TipoDeDato parametro2);
 }
