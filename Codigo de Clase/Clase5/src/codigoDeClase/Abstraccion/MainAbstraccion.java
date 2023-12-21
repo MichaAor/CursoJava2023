@@ -1,23 +1,21 @@
 package codigoDeClase.Abstraccion;
 
+/**
+ * ABSTRACCION
+ * *Explicación: En este caso, se utiliza la abstracción para definir una interfaz Vehiculo con métodos acelerar y frenar. Luego,
+ *      la clase Automovil implementa esta interfaz, proporcionando una implementación concreta de los métodos.
+ * *Ventajas:
+ *  -Simplifica la complejidad del sistema: Al definir una interfaz que representa acciones comunes para todos los vehículos,
+ *      se simplifica la comprensión del sistema.
+ *  -Facilita la comprensión y el diseño: La abstracción permite centrarse en los aspectos esenciales, sin preocuparse por los detalles específicos
+ *      de implementación.
+ * *Desventajas:
+ *  -Puede ser difícil definir la abstracción correcta: Determinar qué métodos deben incluirse en la interfaz puede requerir un análisis cuidadoso.
+ * */
 public class MainAbstraccion {
     public static void main(String[] args) {
-    //Declaracion y Asignacion o inicializacion;
-        String cadena1 = "Hola a todos";
-
-    //Formas de crear
-        String cadena2 = "Creacion 1";
-        String cadena3 = new String("Cadena 2");
-
-    //Algunos Metodos Fundamentales
-        String cadena4 = "Fundamentales";
-        String cadena5 = "fundamentales";
-        System.out.println("El tamaño de [cadena4] es de " + cadena4.length() + " caracteres");
-        System.out.println("El caracter ubicado en la posicion [5] es: " + cadena4.charAt(5));
-        System.out.println("Los String 'cadena4' y 'cadena5' son iguales? " + cadena4.equals(cadena5));
-        System.out.println("Los String 'cadena4' y 'cadena5' son iguales? " + cadena4.equalsIgnoreCase(cadena5));
-        System.out.println("Los String 'cadena4' y 'cadena5' son iguales? " + (cadena4.compareTo(cadena5)));
-        System.out.println("El String 'cadena4' cambia a minusculas: " + cadena4.toLowerCase());
-        System.out.println("La posicion donde comienza la palabra 'mentales' es: " + cadena4.indexOf("mentales"));
+    //Declaracion e Instanciacion o inicializacion;
+        Automovil automovil = new Automovil();
+        automovil.acelerar();
     }
 }
