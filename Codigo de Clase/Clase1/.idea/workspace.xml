@@ -1,0 +1,129 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="22deada8-850f-4a06-a149-0098332c9d23" name="Changes" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../.." />
+  </component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 5
+}</component>
+  <component name="ProjectId" id="2ZVx1aRV2A2qxKgugn4GzFR8nxn" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "Application.ClaseString.executor": "Run",
+    "Application.EjerciciosClase.executor": "Run",
+    "Application.Introduccion.executor": "Run",
+    "Application.Main.executor": "Run",
+    "Application.Operadores.executor": "Run",
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "git-widget-placeholder": "main",
+    "ignore.virus.scanning.warn.message": "true",
+    "kotlin-language-version-configured": "true",
+    "last_opened_file_path": "C:/WorkSpace/Workbench/JAVA VAN/CursoJava2023/Codigo de Clase/Clase1",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "settings.editor.selected.configurable": "configurable.group.editor",
+    "vue.rearranger.settings.migration": "true"
+  }
+}]]></component>
+  <component name="RecentsManager">
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="codigoDeClase" />
+      <recent name="EjercitacionClase" />
+      <recent name="" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Application.EjerciciosClase">
+    <configuration name="ClaseString" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="codigoDeClase.ClaseString" />
+      <module name="Clase1" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="EjerciciosClase" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="EjercitacionClase.EjerciciosClase" />
+      <module name="Clase1" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="EjercitacionClase.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Introduccion" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="codigoDeClase.Introduccion" />
+      <module name="Clase1" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Operadores" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="codigoDeClase.Operadores" />
+      <module name="Clase1" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="codigoDeClase.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.EjerciciosClase" />
+        <item itemvalue="Application.Operadores" />
+        <item itemvalue="Application.ClaseString" />
+        <item itemvalue="Application.Introduccion" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="22deada8-850f-4a06-a149-0098332c9d23" name="Changes" comment="" />
+      <created>1702520833826</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1702520833826</updated>
+      <workItem from="1702520834821" duration="47000" />
+      <workItem from="1702520890391" duration="4153000" />
+      <workItem from="1702555626116" duration="1933000" />
+      <workItem from="1702577356614" duration="4106000" />
+      <workItem from="1702583303217" duration="1199000" />
+      <workItem from="1702596782761" duration="2210000" />
+      <workItem from="1702643095209" duration="1382000" />
+      <workItem from="1702770767104" duration="444000" />
+      <workItem from="1702938679794" duration="3448000" />
+      <workItem from="1702943378059" duration="2205000" />
+      <workItem from="1703026037744" duration="1432000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+</project>

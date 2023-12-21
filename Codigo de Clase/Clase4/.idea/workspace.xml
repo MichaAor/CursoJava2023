@@ -1,0 +1,134 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="33d177a3-552b-4ddb-88ae-9437fe7e24c4" name="Changes" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../.." />
+  </component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 1
+}</component>
+  <component name="ProjectId" id="2ZmTQvW3lbyMWhbLiQvMpRbYVW4" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "Application.Main.executor": "Run",
+    "Application.MainEjemploModDeAcceso.executor": "Run",
+    "Application.MainEjemploPOO.executor": "Run",
+    "Application.MainEjemploStaticYNonStatic.executor": "Run",
+    "Application.MainModDeAcceso.executor": "Run",
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "git-widget-placeholder": "main",
+    "kotlin-language-version-configured": "true",
+    "last_opened_file_path": "C:/WorkSpace/Workbench/JAVA VAN/CursoJava2023/Codigo de Clase/Clase3",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "settings.editor.selected.configurable": "configurable.group.editor",
+    "vue.rearranger.settings.migration": "true"
+  }
+}]]></component>
+  <component name="RecentsManager">
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="EjercitacionClase" />
+      <recent name="codigoDeClase.ejemploStaticyNonStatic" />
+      <recent name="codigoDeClase.ejemploPOO" />
+      <recent name="codigoDeClase.ejemploModDeAcceso" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Application.MainEjemploStaticYNonStatic">
+    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Main" />
+      <module name="Clase4" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="MainEjemploModDeAcceso" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="codigoDeClase.ejemploModDeAcceso.MainEjemploModDeAcceso" />
+      <module name="Clase4" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="codigoDeClase.ejemploModDeAcceso.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="MainEjemploPOO" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="codigoDeClase.ejemploPOO.MainEjemploPOO" />
+      <module name="Clase4" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="codigoDeClase.ejemploPOO.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="MainEjemploStaticYNonStatic" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="codigoDeClase.ejemploStaticyNonStatic.MainEjemploStaticYNonStatic" />
+      <module name="Clase4" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="codigoDeClase.ejemploStaticyNonStatic.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.MainEjemploStaticYNonStatic" />
+        <item itemvalue="Application.MainEjemploModDeAcceso" />
+        <item itemvalue="Application.MainEjemploPOO" />
+        <item itemvalue="Application.Main" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="33d177a3-552b-4ddb-88ae-9437fe7e24c4" name="Changes" comment="" />
+      <created>1703026242835</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1703026242835</updated>
+      <workItem from="1703026243884" duration="4340000" />
+      <workItem from="1703098706588" duration="362000" />
+      <workItem from="1703122449164" duration="197000" />
+      <workItem from="1703198187519" duration="769000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+</project>

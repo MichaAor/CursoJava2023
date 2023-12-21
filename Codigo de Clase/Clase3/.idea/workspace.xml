@@ -1,0 +1,121 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="6e77f11d-ad9e-48ce-8bce-b2b57b9ca32e" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/src/EjercitacionClase/EjerciciosClase.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/EjercitacionClase/EjerciciosClase.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/codigoDeClase/ClaseMath.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/codigoDeClase/ClaseMath.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/codigoDeClase/ClaseScanner.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/codigoDeClase/ClaseScanner.java" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../.." />
+  </component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 0
+}</component>
+  <component name="ProjectId" id="2ZeOcMQKKoGcYvtHKAhl5jz8ug1" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "Application.ClaseJOptionPane.executor": "Run",
+    "Application.ClaseMath.executor": "Run",
+    "Application.ClaseScanner.executor": "Run",
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "git-widget-placeholder": "main",
+    "kotlin-language-version-configured": "true",
+    "last_opened_file_path": "C:/WorkSpace/Workbench/JAVA VAN/CursoJava2023/Codigo de Clase/Clase3",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "settings.editor.selected.configurable": "configurable.group.editor",
+    "vue.rearranger.settings.migration": "true"
+  }
+}]]></component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\WorkSpace\Workbench\JAVA VAN\CursoJava2023\Codigo de Clase\Clase3\src" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Application.ClaseJOptionPane">
+    <configuration name="ClaseJOptionPane" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="codigoDeClase.ClaseJOptionPane" />
+      <module name="Clase3" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="codigoDeClase.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ClaseMath" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="codigoDeClase.ClaseMath" />
+      <module name="Clase3" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="codigoDeClase.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ClaseScanner" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="codigoDeClase.ClaseScanner" />
+      <module name="Clase3" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="codigoDeClase.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.ClaseJOptionPane" />
+        <item itemvalue="Application.ClaseScanner" />
+        <item itemvalue="Application.ClaseMath" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="6e77f11d-ad9e-48ce-8bce-b2b57b9ca32e" name="Changes" comment="" />
+      <created>1702779158270</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1702779158270</updated>
+      <workItem from="1702779159372" duration="115000" />
+      <workItem from="1702831441625" duration="884000" />
+      <workItem from="1702937244481" duration="672000" />
+      <workItem from="1702943315550" duration="62000" />
+      <workItem from="1703098739698" duration="120000" />
+      <workItem from="1703197717116" duration="468000" />
+      <workItem from="1703200111565" duration="2753000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+</project>

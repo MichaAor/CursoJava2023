@@ -1,0 +1,168 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="f7ff4251-0364-4d65-8dd1-f9957c80a758" name="Changes" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../.." />
+  </component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 7
+}</component>
+  <component name="ProjectId" id="2ZZx0c6reLbHcRIrBuh7ErgFmOo" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;Application.ClaseJOptionPane.executor&quot;: &quot;Run&quot;,
+    &quot;Application.ClaseScanner.executor&quot;: &quot;Run&quot;,
+    &quot;Application.ClasesWrapper.executor&quot;: &quot;Run&quot;,
+    &quot;Application.EstructuraDeControl.executor&quot;: &quot;Run&quot;,
+    &quot;Application.Operadores.executor&quot;: &quot;Run&quot;,
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
+    &quot;ignore.virus.scanning.warn.message&quot;: &quot;true&quot;,
+    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/WorkSpace/Workbench/JAVA VAN/CursoJava2023/Codigo de Clase/Clase3&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;configurable.group.editor&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  }
+}</component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\WorkSpace\Workbench\JAVA VAN\CursoJava2023\Codigo de Clase\Clase2\src" />
+    </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="codigoDeClase" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Application.EstructuraDeControl">
+    <configuration name="ClaseJOptionPane" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="codigoDeClase.ClaseJOptionPane" />
+      <module name="Clase2" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="codigoDeClase.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ClaseScanner" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="codigoDeClase.ClaseScanner" />
+      <module name="Clase2" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="codigoDeClase.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ClasesWrapper" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="codigoDeClase.ClasesWrapper" />
+      <module name="Clase2" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="codigoDeClase.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="EstructuraDeControl" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="codigoDeClase.EstructuraDeControl" />
+      <module name="Clase2" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="codigoDeClase.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Operadores" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="codigoDeClase.Operadores" />
+      <module name="Clase2" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="codigoDeClase.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.EstructuraDeControl" />
+        <item itemvalue="Application.Operadores" />
+        <item itemvalue="Application.ClaseJOptionPane" />
+        <item itemvalue="Application.ClaseScanner" />
+        <item itemvalue="Application.ClasesWrapper" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="f7ff4251-0364-4d65-8dd1-f9957c80a758" name="Changes" comment="" />
+      <created>1702643182071</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1702643182071</updated>
+      <workItem from="1702643183117" duration="3672000" />
+      <workItem from="1702657040210" duration="10000" />
+      <workItem from="1702657052626" duration="143000" />
+      <workItem from="1702690815743" duration="1202000" />
+      <workItem from="1702748647063" duration="140000" />
+      <workItem from="1702748788724" duration="54000" />
+      <workItem from="1702748846333" duration="18000" />
+      <workItem from="1702748865393" duration="48000" />
+      <workItem from="1702748921305" duration="645000" />
+      <workItem from="1702764080845" duration="6181000" />
+      <workItem from="1702771643175" duration="488000" />
+      <workItem from="1702779074214" duration="203000" />
+      <workItem from="1702831412451" duration="544000" />
+      <workItem from="1702941059355" duration="193000" />
+      <workItem from="1702943250672" duration="64000" />
+      <workItem from="1703028346783" duration="577000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+</project>
