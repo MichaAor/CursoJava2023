@@ -1,23 +1,21 @@
 package codigoDeClase.Encapsulamiento;
 
+/**
+ * ENCAPSULAMIENTO:
+ * Explicación: En este ejemplo, se crea una clase CuentaBancaria que encapsula el saldo como un atributo privado.
+ *  Los métodos públicos depositar y retirar son las únicas formas de interactuar con el saldo, lo que garantiza que las operaciones se realicen de manera controlada.
+ *  Ventajas:
+ *      -La modularidad y mantenibilidad del código: Al ocultar el detalle interno de cómo se gestiona el saldo,
+ *          es más fácil modificar la implementación interna sin afectar el código externo.
+ *      -Facilita el control sobre el acceso y modificación de los datos internos: Al proporcionar métodos
+ *          específicos para depositar y retirar dinero, se asegura un control adecuado sobre el saldo.
+ *  Desventajas:
+ *      -Puede requerir la creación de numerosos métodos de acceso (getters y setters): Aunque proporciona un control
+ *          adicional, puede aumentar la cantidad de métodos en la clase.
+ */
 public class MainEncapsulamiento {
     public static void main(String[] args) {
-    //Declaracion y Asignacion o inicializacion;
-        String cadena1 = "Hola a todos";
-
-    //Formas de crear
-        String cadena2 = "Creacion 1";
-        String cadena3 = new String("Cadena 2");
-
-    //Algunos Metodos Fundamentales
-        String cadena4 = "Fundamentales";
-        String cadena5 = "fundamentales";
-        System.out.println("El tamaño de [cadena4] es de " + cadena4.length() + " caracteres");
-        System.out.println("El caracter ubicado en la posicion [5] es: " + cadena4.charAt(5));
-        System.out.println("Los String 'cadena4' y 'cadena5' son iguales? " + cadena4.equals(cadena5));
-        System.out.println("Los String 'cadena4' y 'cadena5' son iguales? " + cadena4.equalsIgnoreCase(cadena5));
-        System.out.println("Los String 'cadena4' y 'cadena5' son iguales? " + (cadena4.compareTo(cadena5)));
-        System.out.println("El String 'cadena4' cambia a minusculas: " + cadena4.toLowerCase());
-        System.out.println("La posicion donde comienza la palabra 'mentales' es: " + cadena4.indexOf("mentales"));
+    //Declaracion e Instanciacion o inicializacion;
+        CuentaBancaria cuentaBancaria = new CuentaBancaria();
     }
 }
