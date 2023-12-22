@@ -16,7 +16,7 @@ public class EjerciciosClase {
        *    son positivos, y cuántos son negativos.
        *5) Escribe un programa que pida una base y un exponente (entero positivo) y que
        *    calcule la potencia..
-       *1) Escribe un programa que diga si un número introducido por teclado es o no
+       *6) Escribe un programa que diga si un número introducido por teclado es o no
        *    primo. Un número primo es aquel que sólo es divisible entre él mismo y la unidad.
        */
     }
