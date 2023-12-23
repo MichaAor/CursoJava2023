@@ -1,5 +1,7 @@
 package EjercitacionClase;
 
+import java.util.Scanner;
+
 public class EjerciciosClase {
     public static void main(String[] args) {
       /**
@@ -19,5 +21,16 @@ public class EjerciciosClase {
        *1) Escribe un programa que diga si un número introducido por teclado es o no
        *    primo. Un número primo es aquel que sólo es divisible entre él mismo y la unidad.
        */
+        /* Inicio Ejercicio Nro 1 */
+        // 1) Muestra la tabla de multiplicar de un número introducido por teclado.
+
+        Scanner scannerBasic = new Scanner(System.in);
+        System.out.print("\033[36m"+"Ejercicio Nro 1 --TABLA DE MULTILICAR--"+"\u001B[0m");
+        System.out.print("\033[33m"+"\nIngrese un entero: "+"\u001B[0m");
+        int numeroEntero = scannerBasic.nextInt();
+        for(int i= 1; i<=10; i++){
+            System.out.println(numeroEntero + " * " + i + "  =  " + numeroEntero*i);
+        }
+        /* Fin Ejercicio Nro 1 */
     }
 }
