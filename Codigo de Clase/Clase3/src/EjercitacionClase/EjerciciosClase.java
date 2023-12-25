@@ -72,7 +72,7 @@ public class EjerciciosClase {
         *    introducidos por teclado. A priori, el programa no sabe cuántos números se
         *    introducirán. El usuario indicará que ha terminado de introducir los datos
         *    cuando meta un número negativo.
- */
+
         System.out.print("Ejercicio Nro 3");
 
         System.out.print("\033[33m" + "\nIngrese un entero: " + "\u001B[0m");
@@ -80,13 +80,48 @@ public class EjerciciosClase {
         String datoIngresado = scannerBasic.next();
         Integer numeroIngresado = Integer.parseInt(datoIngresado);
         Integer sumatoria = 0;
-        Integer cantNumeros = 1;
+        Integer cantNumeros = 0;
         while(numeroIngresado > 0){
+             cantNumeros++;
              sumatoria = sumatoria + numeroIngresado;
              System.out.print("\033[33m" + "\nIngrese un entero: " + "\u001B[0m");
              datoIngresado = scannerBasic.next();
              numeroIngresado = Integer.parseInt(datoIngresado);
              }
-        System.out.println("La media es: " + sumatoria/cantNumeros);
+        if (cantNumeros > 0) {
+            System.out.println("La media es: " + sumatoria / cantNumeros);
+        } else {
+            System.out.println("No se ingreso ningun valor ");
+
+        }
+ */
+        /* Fin Ejercicio Nro 3 */
+
+        /*----------------------------------------------------------------------------------*/
+        /* Inicio Ejercicio Nro 4 */
+/**
+               *4) Escribe un programa que lea una lista de diez números y determine cuántos
+                *    son positivos, y cuántos son negativos.
+*/
+        System.out.print("\033[33m" + "\nIngrese un entero: " + "\u001B[0m");
+        Scanner scannerBasic = new Scanner(System.in);
+        String datoIngresado;
+        Integer numeroIngresado;
+        Integer cantNPositivos = 0;
+        Integer cantNNegativos = 0;
+        Integer cantNumeros = 0;
+        for(int i=1; i<=10;i++) {
+            System.out.print("\033[33m" + "\nIngrese un entero: " + "\u001B[0m");
+            datoIngresado = scannerBasic.next();
+            numeroIngresado = Integer.parseInt(datoIngresado);
+            if(numeroIngresado >= 0) {
+                cantNPositivos++;
+            } else {
+                cantNNegativos++;
+            }
+        }
+        System.out.println("Cantidad de numeros positivos: " + cantNPositivos);
+        System.out.println("Cantidad de numeros negativos: " + cantNNegativos);
     }
+    /* Fin Ejercicio Nro 4 */
 }
