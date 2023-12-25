@@ -102,7 +102,7 @@ public class EjerciciosClase {
 /**
                *4) Escribe un programa que lea una lista de diez números y determine cuántos
                 *    son positivos, y cuántos son negativos.
-*/
+
         System.out.print("\033[33m" + "\nIngrese un entero: " + "\u001B[0m");
         Scanner scannerBasic = new Scanner(System.in);
         String datoIngresado;
@@ -123,5 +123,26 @@ public class EjerciciosClase {
         System.out.println("Cantidad de numeros positivos: " + cantNPositivos);
         System.out.println("Cantidad de numeros negativos: " + cantNNegativos);
     }
+    */
     /* Fin Ejercicio Nro 4 */
-}
+    /*----------------------------------------------------------------------------------*/
+    /* Inicio Ejercicio Nro 5 */
+/**
+           *5) Escribe un programa que pida una base y un exponente (entero positivo) y que
+       *    calcule la potencia..
+*/
+        System.out.print("\033[33m" + "\nIngrese base: " + "\u001B[0m");
+        Scanner scannerBasic = new Scanner(System.in);
+        String datoIngresado = scannerBasic.next();
+        Integer base = Integer.parseInt(datoIngresado);
+
+        System.out.print("\033[33m" + "\nIngrese exponente: " + "\u001B[0m");
+        datoIngresado = scannerBasic.next();
+        Integer exponente = Integer.parseInt(datoIngresado);
+
+        double resultadoPotencia = Math.pow(base, exponente);
+        System.out.println("Potencia: " + resultadoPotencia);
+    }
+    /* Fin Ejercicio Nro 4 */
+
+    }
