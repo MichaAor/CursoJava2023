@@ -38,6 +38,7 @@ public class Main {
  *              si el promedio es menor de 6 que muestre reprobado, si es mayor que 6 pero
  *              menor que 9 aprobado, y mayor de 9, sobresaliente.
  */
+/**
         System.out.print("Promedio de 3 notas");
         System.out.print("\033[33m" + "\nIngrese Nota1: " + "\u001B[0m");
         Scanner scannerBasic = new Scanner(System.in);
@@ -61,6 +62,33 @@ public class Main {
         } else
             System.out.println("Calificación no válida");
     }
+ */
     /* Fin Ejercicio Nro 2 */
+/**----------------------------------------------------------------------------------------*/
+    /* Inicio Ejercicio Nro 3 */
+
+/**  3.	Realizar un programa que indique el mayor y menor de cinco valores numéricos. */
+
+        System.out.print("Menor y Mayor de 5");
+        Scanner scannerBasic = new Scanner(System.in);
+        int valorMenor = 999999999;
+        int valorMayor = -999999999;
+        int valorLeido;
+        for (int i=1;i<=5;i++) {
+            System.out.print("\033[33m" + "\nIngrese Valor" + i + ":" + "\u001B[0m");
+            String primerNota = scannerBasic.next();
+            valorLeido = Integer.parseInt(primerNota);
+            if (valorLeido >= valorMayor) {
+                valorMayor = valorLeido;
+            }
+            if (valorLeido <= valorMenor) {
+                valorMenor = valorLeido;
+            }
+        }
+            System.out.println("El valor menor es: " + valorMenor);
+            System.out.println("El valor mayor es: " + valorMayor);
+
+        }
+    /* Fin Ejercicio Nro 3 */
 
     }
