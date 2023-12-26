@@ -22,6 +22,7 @@ public class EjerciciosClase {
          *4) Enseñar las tablas de multiplicar del 1 al 10
          */
 
+        System.out.println("\033[36m"+"\n//--EJERCICIO 1--//"+"\u001B[0m");
         /** De cm a mts. => {1cm = 0.01mts} */
         int centimetros = 100;
         int metros = centimetros/100;
@@ -38,6 +39,7 @@ public class EjerciciosClase {
         float convesionDolares = pesos/cotizacion;
         System.out.println(pesos + " Pesos, representan: " + convesionDolares + " Dolares");
 
+        System.out.println("\033[36m"+"\n//--EJERCICIO 2--//"+"\u001B[0m");
         /** 2) Declarar un numero y mostrar si es par o impar usando el operador 'ternario' */
 
         int numero = 21;
@@ -46,6 +48,8 @@ public class EjerciciosClase {
         } else {
             System.out.println("El numero: "+ numero + " es impar");
         }
+
+        System.out.println("\033[36m"+"\n//--EJERCICIO 3--//"+"\u001B[0m");
         /** 3) Declara 2 variables y  muestre el resultado de las siguientes comparaciones:
          *    a) Igualdad
          *    b) Desigualdad
@@ -56,6 +60,9 @@ public class EjerciciosClase {
          */
         int variableA = 1;
         int variableB = 2;
+        System.out.println("\033[31m"+"variableA: "+variableA+"\u001B[0m");
+        System.out.println("\033[31m"+"variableB: "+variableB+"\u001B[0m");
+
         if (variableA == variableB) {
             System.out.println("variableA y variableB son iguales");
         }
@@ -68,10 +75,12 @@ public class EjerciciosClase {
         if (variableA <= variableB){
             System.out.println("variableA es menor que variableB");
         }
+//Observacion: Esta perfecta la implementacion, tambien se podrian mostrar aquellas donde no se cumple con la condicion(caso false)
 
+        System.out.println("\033[36m"+"\n//--EJERCICIO 4--//"+"\u001B[0m");
         /** 4) Enseñar las tablas de multiplicar del 1 al 10 */
         for (int tabla=1; tabla<=10; tabla++ ) {
-            System.out.println("Tabla del: " + tabla);
+            System.out.println("\033[33m"+"\nTabla del: " + tabla+"\u001B[0m");
             for (int i = 1; i <= 10; i++) {
                 System.out.println(tabla + " * " + i + " = " + i * tabla);
             }

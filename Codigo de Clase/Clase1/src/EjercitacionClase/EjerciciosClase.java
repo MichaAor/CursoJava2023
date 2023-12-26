@@ -38,7 +38,7 @@ public class EjerciciosClase {
       System.out.println("El valor final del texto es: "+ variable2);
       //Correccion: C es un lenguaje POO? Se usa para hacer paginas WEB?
 
-      
+
       //Ejercicio 3
       System.out.println("\033[35m" + "\n//--EJERCICIO 3--//" + "\u001B[0m");
       System.out.println("Cadena Actual: " + "\033[31m" + variable2 + "\u001B[0m");
