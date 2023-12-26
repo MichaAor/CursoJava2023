@@ -102,32 +102,80 @@ public class Main {
 
 
 */
+/**
         System.out.print("Comprobar si es capicua");
         System.out.print("\033[33m" + "\nIngrese numero capicua: " + "\u001B[0m");
         Scanner scannerBasic = new Scanner(System.in);
         String numeroCapicua = scannerBasic.next();
         int logitudNumero = numeroCapicua.length();
 
-        /* Calculo la cantidad de caracteres de cada mitad */
+        // Calculo la cantidad de caracteres de cada mitad //
         int cantidadCaracteres = (logitudNumero - 1)/2;
 
-        /*Tomo la primer mitad */
+        //Tomo la primer mitad //
         String primerMitad = numeroCapicua.substring(0,cantidadCaracteres);
 
-        /* Tomo la segunda mitad */
+        // Tomo la segunda mitad //
         String segundaMitad = numeroCapicua.substring(cantidadCaracteres+1,logitudNumero);
 
-        /* Invierto los caracteres de la segunda mitad */
+        // Invierto los caracteres de la segunda mitad //
         String reverso ="";
         for(int i=segundaMitad.length(); i>0 ; i--) {
             reverso = reverso + segundaMitad.substring(i-1,i);
         }
-        /* comparo si la primer mitad es igual a la segunda mitad */
+        // comparo si la primer mitad es igual a la segunda mitad //
         if(primerMitad.equals(reverso)) {
             System.out.println("El numero: " + numeroCapicua + " es un numero capicua");
         }else {
             System.out.println("El numero: " + numeroCapicua + " no un numero capicua");
         }
     }
+**/
     /* Fin Ejercicio Nro 4 */
+/**----------------------------------------------------------------------------------------*/
+    /* Inicio Ejercicio Nro 5 */
+
+    /** 5.	Realizar un programa que simule una calculadora, donde realice las operaciones
+     * básicas (suma, resta, multiplicación, división), el usuario debe primero ingresar
+     * dos valores, y especificar con un carácter la operación a realizar.
+     */
+        System.out.print("Calculadora");
+        System.out.print("\033[33m" + "\nIngrese primer numero: " + "\u001B[0m");
+        Scanner scannerBasic = new Scanner(System.in);
+        String primerNumero = scannerBasic.next();
+        int nro1 = Integer.parseInt(primerNumero);
+        System.out.print("\033[33m" + "\nIngrese segundo numero: " + "\u001B[0m");
+        String segundoNumero = scannerBasic.next();
+        int nro2 = Integer.parseInt(segundoNumero);
+        System.out.print("\033[33m" + "\nIngrese operacion: " + "\u001B[0m");
+        String operacionIngresada = scannerBasic.next();
+        char operacion = operacionIngresada.charAt(0);
+        String mensaje2 = nro1 + " " + operacion + " " + nro2 + " => ";
+        double calculo = 0F;
+        switch (operacion) {
+            case '+':
+                calculo = nro1 + nro2;
+                System.out.println(mensaje2 + calculo);
+                break;
+            case '-':
+                calculo = nro1 - nro2;
+                System.out.println(mensaje2 + calculo);
+                break;
+            case '*':
+                calculo = nro1 * nro2;
+                System.out.println(mensaje2 + calculo);
+                break;
+            case '/':
+                if (nro2 == 0){
+                    System.out.println("No se puede realizar una division por cero.");
+                } else {
+                    calculo = nro1 / nro2;
+                    System.out.println(mensaje2 + calculo);
+                }
+                break;
+            default:
+                System.out.println("Operacion no definida");
+        }
+    /* Fin Ejercicio Nro 5 */
+   }
 }
