@@ -1,3 +1,4 @@
+import javax.crypto.spec.PSource;
 import java.util.Scanner;
 
 public class Main {
@@ -68,16 +69,17 @@ public class Main {
     /* Inicio Ejercicio Nro 3 */
 
 /**  3.	Realizar un programa que indique el mayor y menor de cinco valores numéricos. */
-
+/**
         System.out.print("Menor y Mayor de 5");
         Scanner scannerBasic = new Scanner(System.in);
+        String valorEntrada;
         int valorMenor = 999999999;
         int valorMayor = -999999999;
         int valorLeido;
         for (int i=1;i<=5;i++) {
             System.out.print("\033[33m" + "\nIngrese Valor" + i + ":" + "\u001B[0m");
-            String primerNota = scannerBasic.next();
-            valorLeido = Integer.parseInt(primerNota);
+            valorEntrada = scannerBasic.next();
+            valorLeido = Integer.parseInt(valorEntrada);
             if (valorLeido >= valorMayor) {
                 valorMayor = valorLeido;
             }
@@ -89,6 +91,43 @@ public class Main {
             System.out.println("El valor mayor es: " + valorMayor);
 
         }
+ */
     /* Fin Ejercicio Nro 3 */
+/**----------------------------------------------------------------------------------------*/
+    /* Inicio Ejercicio Nro 4 */
 
+/** 4.	Crea una aplicación que pida un número por teclado y después comprobaremos si el número introducido es capicúa, es decir, que se lee igual sin importar la dirección.
+    a.	Por ejemplo, si introducimos 30303 es capicúa, si introducimos 30430 no es capicua. Piensa cómo puedes dar la vuelta al número.
+    b.	TIP: Una forma de pasar un número a un array es esta Character.getNumericValue(cadena.charAt(posicion)).
+
+
+*/
+        System.out.print("Comprobar si es capicua");
+        System.out.print("\033[33m" + "\nIngrese numero capicua: " + "\u001B[0m");
+        Scanner scannerBasic = new Scanner(System.in);
+        String numeroCapicua = scannerBasic.next();
+        int logitudNumero = numeroCapicua.length();
+
+        /* Calculo la cantidad de caracteres de cada mitad */
+        int cantidadCaracteres = (logitudNumero - 1)/2;
+
+        /*Tomo la primer mitad */
+        String primerMitad = numeroCapicua.substring(0,cantidadCaracteres);
+
+        /* Tomo la segunda mitad */
+        String segundaMitad = numeroCapicua.substring(cantidadCaracteres+1,logitudNumero);
+
+        /* Invierto los caracteres de la segunda mitad */
+        String reverso ="";
+        for(int i=segundaMitad.length(); i>0 ; i--) {
+            reverso = reverso + segundaMitad.substring(i-1,i);
+        }
+        /* comparo si la primer mitad es igual a la segunda mitad */
+        if(primerMitad.equals(reverso)) {
+            System.out.println("El numero: " + numeroCapicua + " es un numero capicua");
+        }else {
+            System.out.println("El numero: " + numeroCapicua + " no un numero capicua");
+        }
     }
+    /* Fin Ejercicio Nro 4 */
+}
