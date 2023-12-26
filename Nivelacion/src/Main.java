@@ -3,7 +3,7 @@ import java.util.Scanner;
 
 public class Main {
     public static void main(String[] args) {
-        /* Inicio Ejercicio Nro 1 */
+        // Inicio Ejercicio Nro 1 //
         /** 1.	Realizar un algoritmo que permita calcular el índice de masa corporal de una
          *      persona ingresando sus valores del peso y la altura*/
 
@@ -32,9 +32,9 @@ public class Main {
  System.out.println("MC = " + masaCorporal + " Hospitalizado");
  }
  */
-        /* Fin Ejercicio Nro 1 */
+        // Fin Ejercicio Nro 1 //
 /**----------------------------------------------------------------------------------------*/
-        /* Inicio Ejercicio Nro 2 */
+        // Inicio Ejercicio Nro 2 //
 /**        2.	Realizar un programa para calcular el promedio de tres notas, e indique
  *              si el promedio es menor de 6 que muestre reprobado, si es mayor que 6 pero
  *              menor que 9 aprobado, y mayor de 9, sobresaliente.
@@ -64,9 +64,9 @@ public class Main {
             System.out.println("Calificación no válida");
     }
  */
-    /* Fin Ejercicio Nro 2 */
+        // Fin Ejercicio Nro 2 //
 /**----------------------------------------------------------------------------------------*/
-    /* Inicio Ejercicio Nro 3 */
+        // Inicio Ejercicio Nro 3 //
 
 /**  3.	Realizar un programa que indique el mayor y menor de cinco valores numéricos. */
 /**
@@ -92,9 +92,9 @@ public class Main {
 
         }
  */
-    /* Fin Ejercicio Nro 3 */
+        // Fin Ejercicio Nro 3 //
 /**----------------------------------------------------------------------------------------*/
-    /* Inicio Ejercicio Nro 4 */
+        // Inicio Ejercicio Nro 4 //
 
 /** 4.	Crea una aplicación que pida un número por teclado y después comprobaremos si el número introducido es capicúa, es decir, que se lee igual sin importar la dirección.
     a.	Por ejemplo, si introducimos 30303 es capicúa, si introducimos 30430 no es capicua. Piensa cómo puedes dar la vuelta al número.
@@ -131,14 +131,15 @@ public class Main {
         }
     }
 **/
-    /* Fin Ejercicio Nro 4 */
+        // Fin Ejercicio Nro 4 //
 /**----------------------------------------------------------------------------------------*/
-    /* Inicio Ejercicio Nro 5 */
+    // Inicio Ejercicio Nro 5 //
 
     /** 5.	Realizar un programa que simule una calculadora, donde realice las operaciones
      * básicas (suma, resta, multiplicación, división), el usuario debe primero ingresar
      * dos valores, y especificar con un carácter la operación a realizar.
      */
+/**
         System.out.print("Calculadora");
         System.out.print("\033[33m" + "\nIngrese primer numero: " + "\u001B[0m");
         Scanner scannerBasic = new Scanner(System.in);
@@ -176,6 +177,7 @@ public class Main {
             default:
                 System.out.println("Operacion no definida");
         }
-    /* Fin Ejercicio Nro 5 */
+    // Fin Ejercicio Nro 5 //
    }
+   **/
 }
