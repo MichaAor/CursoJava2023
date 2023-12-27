@@ -9,7 +9,7 @@ public class Operadores {
         int resta = a - b; // Resta
         int multiplicacion = a * b; // Multiplicación
         int division = a / b; // División
-        int modulo = a % b; // Módulo (resto de la división)
+        int modulo = a % b; // Módulo (resto de la división);
 
         System.out.println("\033[36m"+"Operadores Aritméticos:"+"\u001B[0m");
         System.out.println("Suma: " + suma);
@@ -79,7 +79,7 @@ public class Operadores {
         System.out.println("decPrefijo = --inicial; // decPrefijo = " + decPrefijo + ", inicial = " + inicial);
 
         // Operadores Unarios
-        int positivo = +5; // Operador unario positivo
+        int positivo = 5; // Operador unario positivo
         int negativo = -8; // Operador unario negativo
         int complemento = ~10;
 
@@ -89,7 +89,7 @@ public class Operadores {
         System.out.println("Complemento de [10]: " + complemento);
 
         // Operador condicional (operador ternario)
-        int edad = 20;
+        int edad = 5;
         String mensaje = (edad >= 18) ? "Eres mayor de edad" : "Eres menor de edad";
 
         System.out.println("\033[36m"+"\nOperador Condicional (Ternario):"+"\u001B[0m");
