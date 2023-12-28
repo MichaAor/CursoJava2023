@@ -25,6 +25,8 @@ public class ImcCalculator {
         } else {
             System.out.println("Hospitalizado");
         }
-
+//Ser mas declarativo con las partes de nuestro Runneable.
+//Titular los ejercicios para luego mostrar todo junto.
+//Codigo limpio y ordenado, bien hecho!!
     }
 }
