@@ -1,7 +1,6 @@
 package codigoDeClase;
 
-import java.util.InputMismatchException;
-import java.util.Scanner;
+import codigoDeClase.ClaseMath;
 
 public class ClaseMath {
     public static void main(String[] args) {
@@ -52,8 +51,8 @@ public class ClaseMath {
             System.out.println("\033[33m"+"\nMath.log"+"\u001B[0m");
             double numeroLogaritmo = 10;
             double resultadoLogaritmo = Math.log(numeroLogaritmo);
-            System.out.println("Numero Logaritmo: " + redondeo);
-            System.out.println("Logaritmo Natural: " + redondeo);
+            System.out.println("Numero Logaritmo: " + numeroLogaritmo);
+            System.out.println("Logaritmo Natural: " + resultadoLogaritmo);
 
             // pow(double base, double exponente): Retorna la potencia de un número.
             System.out.println("\033[33m"+"\nMath.pow"+"\u001B[0m");
@@ -69,7 +68,7 @@ public class ClaseMath {
             double numeroRaiz = 25;
             double resultadoRaizCuadrada = Math.sqrt(numeroRaiz);
             System.out.println("Numero Raiz: " + numeroRaiz);
-            System.out.println("Raíz Cuadrada: " + redondeo);
+            System.out.println("Raíz Cuadrada: " + resultadoRaizCuadrada);
 
 
         //FUNCIONES TRIGONOMETRICAS
@@ -90,7 +89,7 @@ public class ClaseMath {
             //Metodo cos: Obtiene el coseno del angulo en radianes
             System.out.println("\033[33m"+"\nMath.cos"+"\u001B[0m");
             double coseno = Math.cos(anguloRad);
-            System.out.println("Seno: " + seno);
+            System.out.println("Coseno: " + coseno);
 
             //Metodo tan: Obtiene la tangente del angulo en radianes
             System.out.println("\033[33m"+"\nMath.tan"+"\u001B[0m");

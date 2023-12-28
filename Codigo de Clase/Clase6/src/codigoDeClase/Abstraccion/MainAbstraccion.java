@@ -11,7 +11,7 @@ package codigoDeClase.Abstraccion;
  *      de implementación.
  * *Desventajas:
  *  -Puede ser difícil definir la abstracción correcta: Determinar qué métodos deben incluirse en la interfaz puede requerir un análisis cuidadoso.
- * */
+ */
 public class MainAbstraccion {
     public static void main(String[] args) {
     //Declaracion e Instanciacion o inicializacion;
