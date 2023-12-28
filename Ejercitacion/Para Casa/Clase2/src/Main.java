@@ -1,6 +1,8 @@
+import java.util.Scanner;
+
 public class Main {
     public static void main(String[] args) {
-        System.out.println("Hello world!");
+
         /*
 
             1)	Clasifica y menciona al menos 2 ejemplos de Operadores.
@@ -45,12 +47,40 @@ public class Main {
                 } else {
                    Return 0;
                 }
+/*
+            6)	Escribe un programa que muestre los n primeros términos de la serie de Fibonacci.
+                El primer término de la serie de Fibonacci es 0, el segundo es 1 y el resto se calcula
+                sumando los dos anteriores, por lo que tendríamos que los términos
+                son 0, 1, 1, 2, 3, 5, 8, 13, 21, 34, 55, 89, 144... El número n se debe introducir por teclado.
 
-            6)	Escribe un programa que muestre los n primeros términos de la serie de Fibonacci. El primer término de la serie de Fibonacci es 0, el segundo es 1 y el resto se calcula sumando los dos anteriores, por lo que tendríamos que los términos son 0, 1, 1, 2, 3, 5, 8, 13, 21, 34, 55, 89, 144... El número n se debe introducir por teclado.
-
-
-
-         */
-
+*/
+        int fibonacci[];
+        fibonacci = new int[500];
+        System.out.println("\033[36m" + "//--EJERCICIO 6--\\" + "\u001B[0m");
+        System.out.print("\033[33m" + "Ingrese cantidad de elementos de la serie: " + "\u001B[0m");
+        Scanner scannerBasic = new Scanner(System.in);
+        String datoIngresado = scannerBasic.next();
+        int numeroIngresado = Integer.parseInt(datoIngresado);
+        String cadenaFibonacci = "";
+        if (numeroIngresado == 1) {
+            System.out.println("La serie es: 0");
+        } else if (numeroIngresado == 2) {
+            System.out.println("La serie es: 0,1");
+        } else if (numeroIngresado > 2) {
+            fibonacci[0] = 0;
+            fibonacci[1] = 1;
+            cadenaFibonacci = "La serie es: ";
+            for (int i=2; i <= numeroIngresado; i++) {
+                fibonacci[i] = fibonacci[i - 1] + fibonacci[i - 2];
+            }
+            for (int j=0; j <= numeroIngresado; j++) {
+                if (j == numeroIngresado) {
+                    cadenaFibonacci = cadenaFibonacci + fibonacci[j];
+                } else {
+                    cadenaFibonacci = cadenaFibonacci + fibonacci[j] + ',';
+                }
+            }
+            System.out.println(cadenaFibonacci);
+        }
     }
 }
