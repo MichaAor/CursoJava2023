@@ -95,7 +95,6 @@ public class EjerciciosClase {
         int numeroIngresado;
         int cantNPositivos = 0;
         int cantNNegativos = 0;
-        int cantNumeros = 0;
         for(int i=1; i<=10;i++) {
             System.out.print("\033[33m" + "Ingrese un entero: " + "\u001B[0m");
             numeroIngresado = scannerBasic.nextInt();
@@ -108,8 +107,8 @@ public class EjerciciosClase {
         System.out.println("Cantidad de numeros positivos: " + cantNPositivos);
         System.out.println("Cantidad de numeros negativos: " + cantNNegativos);
         scannerBasic.close();
-*/
 
+*/
 /* Fin Ejercicio Nro 4 */
 //Observaciones: A cuidar los recursos, mejorar uso de Scanner, clases primitivas y revisar, 1 variable sin uso y sobra 1 '}'.
 
