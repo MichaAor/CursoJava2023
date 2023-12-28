@@ -1,5 +1,7 @@
 package codigoDeClase;
 
+import codigoDeClase.ClaseMath;
+
 public class ClaseMath {
     public static void main(String[] args) {
 
@@ -8,7 +10,7 @@ public class ClaseMath {
 
             // Método abs: Retorna el valor absoluto de un número
             System.out.println("\033[33m"+"Math.abs"+"\u001B[0m");
-            double valorAbsoluto = Math.abs(-15);
+            int valorAbsoluto = Math.abs(-15);
             System.out.println("Valor Absoluto: " + valorAbsoluto);
 
             // Método ceil: Retorna el menor entero más grande que es mayor o igual a un número
@@ -57,8 +59,8 @@ public class ClaseMath {
             double base = 2;
             double exponentePotencia = 3;
             double resultadoPotencia = Math.pow(base, exponentePotencia);
-            System.out.println("Base: " + base);
-            System.out.println("Exponente: " + exponentePotencia);
+            System.out.println("Base: " + redondeo);
+            System.out.println("Exponente: " + redondeo);
             System.out.println("Potencia: " + resultadoPotencia);
 
             // sqrt(double a): Retorna la raíz cuadrada de un número.
@@ -75,7 +77,7 @@ public class ClaseMath {
             //Metodo toRadians: Convertierte a radianes
             System.out.println("\033[33m"+"Math.toRadians"+"\u001B[0m");
             int grados = 45;
-            System.out.println("Grados:" + grados);
+            System.out.println("Grados:" + 45);
             double anguloRad = Math.toRadians(grados); //
             System.out.println("Grados en Radianes: " + anguloRad);
 
@@ -87,7 +89,7 @@ public class ClaseMath {
             //Metodo cos: Obtiene el coseno del angulo en radianes
             System.out.println("\033[33m"+"\nMath.cos"+"\u001B[0m");
             double coseno = Math.cos(anguloRad);
-            System.out.println("Seno: " + coseno);
+            System.out.println("Coseno: " + coseno);
 
             //Metodo tan: Obtiene la tangente del angulo en radianes
             System.out.println("\033[33m"+"\nMath.tan"+"\u001B[0m");
