@@ -94,5 +94,4 @@ public class EjerciciosClase {
         for (int i=1; i <= 10; i++){
             System.out.println("[" + numeroTeclado + "X" + i + " = " + (numeroTeclado * i) + "]");
         }
-    }
-}
+     }

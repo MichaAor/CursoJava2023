@@ -94,7 +94,7 @@ public class EjerciciosClase {
         char letra= corregido.charAt(posicionABuscar);
         System.out.println("La letra de la cadena '" + corregido + "' ubicado en la posicion [" + posicionABuscar + "] es: '" + letra +"'");
 
-
+          }
         //FORMA2 DE HACER EJERCICIO 2 (MICHA)
         System.out.println("\033[35m" + "\n//string1.contains(String string2aABuscar)// --> FORMA 2" + "\u001B[0m");
         String cad1 = original;
@@ -108,5 +108,7 @@ public class EjerciciosClase {
                 "la primera cadena es mayor.": "ambas son iguales.";
 
         System.out.println(message + " Usando comparacion, podemos ver que " + message2);
-    }
-}
+        }
+      } 
+
+          
