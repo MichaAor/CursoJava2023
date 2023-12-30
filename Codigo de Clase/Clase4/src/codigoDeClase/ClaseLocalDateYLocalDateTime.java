@@ -7,8 +7,8 @@ import java.time.format.DateTimeFormatter;
 
 public class ClaseLocalDateYLocalDateTime {
     public static void main(String[] args) {
-        localDateDEMO();
-        //localDateTimeDEMO();
+//        localDateDEMO();
+        localDateTimeDEMO();
     }
 
     public static void localDateDEMO(){
