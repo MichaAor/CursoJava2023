@@ -68,7 +68,7 @@ public class Main {
             //tomo un valor al azar de la cadena de numeros
             password = password + valoresNumericos.substring(posicionNumericos.intValue(),posicionNumericos.intValue()+1);
         }
-        // Contraseñas con cantidad de digitos impares
+        // Contraseñas con cantidad de digitos impares, agrego el ultimo caracter al azar
         if (longitudContraseña % 2 != 0){
 
             //Obtengo posicion al azar dentro de la cadena de caracteres
