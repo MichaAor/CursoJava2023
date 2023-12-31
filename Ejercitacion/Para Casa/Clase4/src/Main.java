@@ -82,5 +82,8 @@ public class Main {
     }
 
         /* Fin Ejercicio Nro 6 */
-
+    //Observacion: afa afa afabeticos. Excelente organizacion y descripcion. Codigo muy bien documentado.
+    //Observacion: Cuidado con la composicion de la contraseña, si se descubre el patron 'letra - numero - letra - ...' es vulnerable.
+    //Observacion: Refactorizar para obtener una solucion mas eficiente.
+    //Observacion: Intentar ingresar la longitud por teclado
 }
