@@ -38,7 +38,7 @@ public class EjerciciosClase {
       variable2 = variable2.replace('1','i');
       variable2 = variable2.toLowerCase();
       variable2 = variable2.replace('4','a');
-      System.out.println("El valor final del texto es: "+ variable2);
+
       variable3 = variable2.substring(0,1) + " no "+ variable2.substring(2,variable2.length());
       variable4 = variable3.substring(0,56) + " no admite uso " + variable3.substring(63,variable3.length());
       System.out.println("El valor final del texto es: "+ variable4);
