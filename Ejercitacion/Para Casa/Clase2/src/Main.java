@@ -81,6 +81,9 @@ public class Main {
                 }
             }
             System.out.println(cadenaFibonacci);
+
+            //Observsacion: Muy bien planteado, pero debe realizarse con los contenidos dados. Inteta refactorizarlo en un segundo metodo.
+            //Observsacion: Ser mas declarativo, ordenado y sobre todo, comentar el codigo (por mas que sea un algoritmo faciles.
         }
     }
 }

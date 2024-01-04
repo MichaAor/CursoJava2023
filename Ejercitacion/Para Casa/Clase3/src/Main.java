@@ -27,10 +27,12 @@ public class Main {
         }
         System.out.println("El salario semanal es: "+salarioSemanal);
     }
+
+ //Observacion: Muy bien planteado, aunque se puede refactorizar para ser mas eficiente y no repetir codigo.
 */
 
     /**
-     * 23)	Realiza el control de acceso a una caja fuerte donde la combinación será ingresada por teclado,
+     * 5)	Realiza el control de acceso a una caja fuerte donde la combinación será ingresada por teclado,
      *      un número de 4 cifras. Si no acertamos, se nos mostrará el mensaje “Lo siento, esa no es la
      *      combinación” y si acertamos se nos dirá “La caja fuerte se ha abierto satisfactoriamente”.
      *      Tendremos cuatro oportunidades para abrir la caja fuerte.
@@ -55,5 +57,6 @@ public class Main {
             System.out.println("Despues de 4 intentos no pudiste adivinar la clave, seguis siendo pobre.");
         }
     }
-
+//Observacion: Cuidado a la declaracion de variables sin usar.
+//Observacion: Pasar todos los ejercicios de la guia a este main.
 }
