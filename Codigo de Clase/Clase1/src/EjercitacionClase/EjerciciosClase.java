@@ -16,6 +16,8 @@ public class EjerciciosClase {
       System.out.println("\033[36m" + "\n//--EJERCICIO 1--//" + "\u001B[0m");
       char variable1 = 'A';
       String variable2 = "A";
+      String variable3 = "";
+      String variable4 = "";
 
       System.out.println("\033[33m" + "--EJERCICIO A--" + "\u001B[0m");
       System.out.println("El valor de variable1 es: " +variable1);
@@ -25,6 +27,7 @@ public class EjerciciosClase {
       System.out.println("variable1 concatenada a variable2 es: "+ variable1 + variable2);
 
       //Ejercicio 2
+
       System.out.println("\033[36m" + "\n//--EJERCICIO 2--//" + "\u001B[0m");
       variable2 = "                C 3s un l3nguaj3 d3 pr0gramac10n 0r1entad0 a obj3tos, USAD0 PARA HAC3R pag1n4s W3BS";
 
@@ -36,9 +39,12 @@ public class EjerciciosClase {
       variable2 = variable2.toLowerCase();
       variable2 = variable2.replace('4','a');
       System.out.println("El valor final del texto es: "+ variable2);
+      variable3 = variable2.substring(0,1) + " no "+ variable2.substring(2,variable2.length());
+      variable4 = variable3.substring(0,56) + " no admite uso " + variable3.substring(63,variable3.length());
+      System.out.println("El valor final del texto es: "+ variable4);
       //Correccion: C es un lenguaje POO? Se usa para hacer paginas WEB?
 
-
+/**
       //Ejercicio 3
       System.out.println("\033[35m" + "\n//--EJERCICIO 3--//" + "\u001B[0m");
       System.out.println("Cadena Actual: " + "\033[31m" + variable2 + "\u001B[0m");
@@ -69,5 +75,6 @@ public class EjerciciosClase {
       System.out.println("\033[33m" + "\nComparando con .equals()" + "\u001B[0m");
       System.out.println("Cadena a filtar: " + "\033[31m" + cadena2 + "\u001B[0m");
       System.out.println("Posicion de la cadena 'conocimientos' usando .indexOf(): " + cadena2.indexOf("conocimientos"));
+ */
     }
 }
