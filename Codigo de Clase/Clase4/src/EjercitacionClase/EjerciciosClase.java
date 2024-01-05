@@ -71,11 +71,15 @@ public class EjerciciosClase {
  */
         /* Fin Ejercicio Nro 2 */
         /*---------------------------------------------------------------------------------------------------*/
+        /* Inicio Ejercicio Nro 3 */
+
         /**
          *3) Escribe un programa que calcule cuántos días laborables (sin contar fines de semana)
          *      entre 2 fechas.
          */
-        /* Inicio Ejercicio Nro 3 */
+/*
+        System.out.println("\033[36m" + "//--EJERCICIO 3--\\" + "\u001B[0m");
+
         //Datos inciales (fecha inicial, fecha final)
         String fechaInicialString = "2024-01-01";
         String fechaFinalString = "2024-01-31";
@@ -102,17 +106,44 @@ public class EjerciciosClase {
         }
         System.out.println("La cantidad de dias laborables es: " + diasLaborables);
     }
-    /* Fin Ejercicio Nro 3 */
-    /*---------------------------------------------------------------------------------------------------*/
-    /**
+*/
+        /* Fin Ejercicio Nro 3 */
+        /*---------------------------------------------------------------------------------------------------*/
+        /* Inicio Ejercicio Nro 4 */
+        /**
+         *4) Escribe un programa que solicite al usuario su fecha de nacimiento y calcule la
+         *      fecha de jubilación considerando la edad de jubilación estándar
+         *      (por ejemplo, 65 años).
+         */
+/*
+        System.out.println("\033[36m" + "//--EJERCICIO 4--\\" + "\u001B[0m");
+        System.out.print("\033[33m" + "Ingrese su fecha de nacimiento (dd-mm-yyyy): " + "\u001B[0m");
+        Scanner scannerBasic1 = new Scanner(System.in);
+        String datoIngresado1 = scannerBasic1.next();
+        DateTimeFormatter formato = DateTimeFormatter.ofPattern("dd-MM-yyyy");
+        LocalDate fechaNacimiento = LocalDate.parse(datoIngresado1, formato);
+        LocalDate fechaJubilacion = fechaNacimiento.plusYears(65);
+        System.out.println("La fecha de jubilacion sera: "+ fechaJubilacion);
+    }
+ */
+        /* Fin Ejercicio Nro 4 */
+        /*---------------------------------------------------------------------------------------------------*/
+        /* Inicio Ejercicio Nro 5 */
+        /**
+         *5) Escribe un programa que solicite al usuario los catetos de
+         *      un triángulo rectángulo y calcule e imprima la longitud de la hipotenusa.
+         */
+        System.out.println("\033[36m" + "//--EJERCICIO 5--\\" + "\u001B[0m");
+        System.out.print("\033[33m" + "Ingrese longitud del cateto 1: " + "\u001B[0m");
+        Scanner scannerBasic1 = new Scanner(System.in);
+        String datoIngresado1 = scannerBasic1.next();
+        Integer longitudCateto1 = Integer.parseInt(datoIngresado1);
+        System.out.print("\033[33m" + "Ingrese longitud del cateto 2: " + "\u001B[0m");
+        String datoIngresado2 = scannerBasic1.next();
+        Integer longitudCateto2 = Integer.parseInt(datoIngresado2);
 
-     *4) Escribe un programa que solicite al usuario su fecha de nacimiento y calcule la
-     *      fecha de jubilación considerando la edad de jubilación estándar
-     *      (por ejemplo, 65 años).
-     *5) Escribe un programa que solicite al usuario los catetos de
-     *      un triángulo rectángulo y calcule e imprima la longitud de la hipotenusa.
-     */
+        Integer longitudHipotenusa = (longitudCateto1 * longitudCateto1) + (longitudCateto2 * longitudCateto2);
+        System.out.println("La longitud de la hipotenusa es: "+ longitudHipotenusa);
+    }
+    /* Fin Ejercicio Nro 5 */
 }
-
-
-
