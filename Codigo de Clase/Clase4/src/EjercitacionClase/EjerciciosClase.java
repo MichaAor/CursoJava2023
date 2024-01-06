@@ -143,7 +143,7 @@ public class EjerciciosClase {
         Integer longitudCateto2 = Integer.parseInt(datoIngresado2);
 
         Integer longitudHipotenusa = (longitudCateto1 * longitudCateto1) + (longitudCateto2 * longitudCateto2);
-        System.out.println("La longitud de la hipotenusa es: "+ longitudHipotenusa);
+        System.out.println("La longitud de la hipotenusa es: "+ Math.floor(longitudHipotenusa));
     }
     /* Fin Ejercicio Nro 5 */
 }
