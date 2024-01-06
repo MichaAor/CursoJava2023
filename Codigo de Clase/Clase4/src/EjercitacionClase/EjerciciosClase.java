@@ -43,7 +43,9 @@ public class EjerciciosClase {
         scannerBasic.close();
 */
         /* Fin Ejercicio Nro 1 */
-
+//Observacion:
+//  *Excelente uso del operador ternario.
+//  *Cuidado que hay codigo repetido, tratar de optimizar la entrada y proceso de datos
         /*---------------------------------------------------------------------------------------------------*/
         /* Inicio Ejercicio Nro 2 */
         /**
@@ -68,6 +70,10 @@ public class EjerciciosClase {
         }
         System.out.println("El factorial de: " + numeroIngresado1 + " es: " + factorial);
     }
+//Observacion:
+//  *Buena organizacion y documentacion
+//  *El ejercicio contempla el ingreso de numero >= 1, pero y si ingresa un 0?
+
  */
         /* Fin Ejercicio Nro 2 */
         /*---------------------------------------------------------------------------------------------------*/
@@ -106,6 +112,9 @@ public class EjerciciosClase {
         }
         System.out.println("La cantidad de dias laborables es: " + diasLaborables);
     }
+//Observacion:
+//  *Excelente documentacion.
+//  *Se puede optimizar mas?
 */
         /* Fin Ejercicio Nro 3 */
         /*---------------------------------------------------------------------------------------------------*/
@@ -146,4 +155,7 @@ public class EjerciciosClase {
         System.out.println("La longitud de la hipotenusa es: "+ Math.floor(longitudHipotenusa));
     }
     /* Fin Ejercicio Nro 5 */
+
+//Observacion:
+//  *Aprovechar mas la clase Math.
 }
