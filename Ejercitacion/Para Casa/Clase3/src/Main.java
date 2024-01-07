@@ -7,7 +7,7 @@ public class Main {
          *      que las horas ordinarias (40 primeras horas de trabajo) se pagan a 12 euros la hora.
          *      A partir de la hora 41, se pagan a 16 euros la hora(Se recibe las horas totales por teclado).
          */
-/**
+
         System.out.println("\033[36m" + "//--EJERCICIO 4--\\" + "\u001B[0m");
         System.out.print("\033[33m" + "Ingrese horas totales: " + "\u001B[0m");
         Scanner scannerBasic = new Scanner(System.in);
@@ -26,10 +26,10 @@ public class Main {
             salarioSemanal = totalHoras * 12;
         }
         System.out.println("El salario semanal es: "+salarioSemanal);
-    }
+
 
  //Observacion: Muy bien planteado, aunque se puede refactorizar para ser mas eficiente y no repetir codigo.
-*/
+
 
     /**
      * 5)	Realiza el control de acceso a una caja fuerte donde la combinación será ingresada por teclado,
@@ -39,9 +39,6 @@ public class Main {
      */
 
         System.out.println("\033[36m" + "//--EJERCICIO 5--\\" + "\u001B[0m");
-        Scanner scannerBasic = new Scanner(System.in);
-        String datoIngresado;
-        int totalHoras;
         String claveSecreta = "1234";
         int cantIntentosActuales = 0;
         int cantIntentosMaximo = 4;
