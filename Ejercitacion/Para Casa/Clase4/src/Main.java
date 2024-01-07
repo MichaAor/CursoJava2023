@@ -7,7 +7,7 @@ public class Main {
          * 5)	Escribe un programa en que dado un número ingresado por teclado (del 1 a 7)
          *      escriba el correspondiente nombre del día de la semana.
          */
-/**
+
         System.out.println("\033[36m" + "//--EJERCICIO 5--\\" + "\u001B[0m");
         System.out.print("\033[33m" + "Ingrese el dia de la semana (1 al 7): " + "\u001B[0m");
         Scanner scannerBasic = new Scanner(System.in);
@@ -37,8 +37,8 @@ public class Main {
                 break;
             default: System.out.println("Valor invalido, este debe ser un numero entre 1 y 7");
         }
-    }
-*/
+
+
         /* Fin Ejercicio Nro 5 */
 /*--------------------------------------------------------------------------------------------------------*/
         /* Inicio Ejercicio Nro 6 */
@@ -47,7 +47,11 @@ public class Main {
  * 6)	Escribe un programa que genere y muestre una contraseña aleatoria. La contraseña debe tener
  *      una longitud específica y contener caracteres alfanuméricos.
   */
-        int longitudContraseña = 5;
+        System.out.print("\033[33m" + "Ingrese longitud de contraseña: " + "\u001B[0m");
+        Scanner scannerBasic1 = new Scanner(System.in);
+        String datoIngresado1 = scannerBasic.next();
+        int longitudContraseña = Integer.parseInt(datoIngresado1);
+
         String valoresAlfabeticos = "abcdefghijklmnopqrstuvwxyz";
         String valoresNumericos = "1234567890";
         String password = "";

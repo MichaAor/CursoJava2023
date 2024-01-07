@@ -62,18 +62,23 @@ public class Main {
         String datoIngresado = scannerBasic.next();
         int numeroIngresado = Integer.parseInt(datoIngresado);
         String cadenaFibonacci = "";
+            // caso que se solicite factorial de 1
         if (numeroIngresado == 1) {
             System.out.println("La serie es: 0");
+            // caso que se solicite factorial de 2
         } else if (numeroIngresado == 2) {
             System.out.println("La serie es: 0,1");
+            // caso que se solicite factorial mayor a 2
         } else if (numeroIngresado > 2) {
             fibonacci[0] = 0;
             fibonacci[1] = 1;
             cadenaFibonacci = "La serie es: ";
             for (int i=2; i <= numeroIngresado; i++) {
+                //Lleno un vector con el calculo de cada numero fibonacci
                 fibonacci[i] = fibonacci[i - 1] + fibonacci[i - 2];
             }
             for (int j=0; j <= numeroIngresado; j++) {
+                //Formateo la la cadena de salida con los numeros que calcule en el vector.
                 if (j == numeroIngresado) {
                     cadenaFibonacci = cadenaFibonacci + fibonacci[j];
                 } else {
