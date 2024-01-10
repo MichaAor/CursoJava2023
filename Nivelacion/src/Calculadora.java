@@ -40,4 +40,6 @@ public class Calculadora {
 
                 JOptionPane.showMessageDialog(null, "El resultado de la operacion es: " + resultado);
         }
+
+        //Observacion: Muy buen trabajo, la organizacion es genial junto con la presentacion.
 }

@@ -21,4 +21,5 @@ public class Capicua {
         }
 
     }
+    //Observacion: Excelente uso de StringBuilder. Eficiente y preciso.
 }
