@@ -17,6 +17,5 @@ public class Fibonacci {
                 t2 = sum;
             }
         }
-        //Observacion: En proceso?
-
+   //Observacion:  Excelente algoritmo, no te olvides de mejorar la presentacion y documentar.
 }

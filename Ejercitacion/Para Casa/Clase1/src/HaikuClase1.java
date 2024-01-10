@@ -14,6 +14,10 @@ public class HaikuClase1 {
         System.out.println(textColor + "Dev Haiku" + resetColor);
         System.out.println(textColor + haiku + resetColor);
     }
+
+//Observacion: Excelente reutilizacion de variables y comprension de los Unixcode.
+//Observacion: Codigo ordenado, limpio y seleccionado. Muy buen trabajo :D.
+//Observacion: Te animas a formatear el Haiku para que se lea mejor?.
 }
 
 /*
@@ -33,6 +37,10 @@ No, porque el código Java se compila en un formato de byte-code que puede ser e
 Las variables primitivas son aquellas que almacenan valores simples, como números enteros, decimales, caracteres, etc
 . En cambio, las variables de referencia son aquellas que almacenan direcciones de memoria de objetos. Es decir, son
 objetos, y no valores simples. Que ademas tienen metodos predeterminados que ayudan mucho al programador.
+
+//Observacion: Si bien el la respuesta es acertada,se espera mas una relacionada a el manejo de memoria. En otras palabras, las primitivas se alojan
+directamente en la memoria, en tanto las de referencia lo hacen a traves de una direccion de memoria / referencia.
+
       4)  Enumera 3 proyectos en los que propondría JAVA para llevar a cabo su desarrollo.
 Desarrollo de juegos para android, desarrollo de aplicaciones web como el homebanking, desarrollo de aplicaciones
 móviles.

@@ -48,7 +48,13 @@ es como hacer la siguiente operación: a = a % 3  pero de forma resumida.
 La principal diferencia es que la sentencia if permite evaluar cualquier tipo de expresión booleana, mientras que la
 sentencia switch solo permite evaluar los posibles valores de una sola variable.
 
+//Observacion: Si bien correcto, la principal diferencia en si es que if se basa en una condicion de filtro para la ejecucion de 1 bloque de codigo
+,en cambio switch posee varios bloques los cuales van a ser abordados mediante una seleccion previa, mas no un filtro.
+
 3) Explica con tus palabras el funcionamiento de la estructura de control de iteración ‘foreach’.
    El bucle foreach en Java se utiliza para iterar sobre elementos de una colección (como un arreglo o una lista) sin necesidad de conocer la longitud de la misma.
  Es una forma de "solo lectura" de iterar a través de una colección o array, ya que no se puede modificar la durante la iteración, porque no tiene condicion.
  */
+
+//Observacion: Excelente trabajo y organizacion.
+//Observacion: El ejercicio de Fibonacci deberia ser el 5 en este proyecto. No te olvides de moverlo.
