@@ -47,4 +47,6 @@ public class Main {
         corregido = corregido.replace('3','E');
         System.out.println("La cadena corregida es: " + "\033[32m" + "'" + corregido + "'" + "\u001B[0m");
     }
+
+    //Observacion: Excelente organizacion, te animas a formatear el Haiku para que sea mas legible?
 }

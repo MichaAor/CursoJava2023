@@ -22,6 +22,8 @@ public class Main {
        * los casos a evaluar
        * Cuando usamos SWITCH es necesario saber exactamente, la cantidad y los
        * valores de los escenarios a evaluar
+       *
+       * Observacion: Respuesta incorrecta.
        * 
        * Explica con tus palabras el funcionamiento de la estructura de control de
        * iteración ‘foreach’.
@@ -29,6 +31,8 @@ public class Main {
        * elementos.
        * Sirve para cuando no sabes en que posición del array se encuentra el elemento
        * que estás buscando.
+       *
+       * Observacion: Respuesta incorrecta
        * 
        * 
        * Declara una variable ‘hora’ de tipo ‘int’ y que muestra los buenos días,
@@ -126,6 +130,8 @@ public class Main {
           System.out.println("Usted tiene: " + puntos + " puntos");
 
       }
+
+      //Observacion: Codigo limpio y ordeando. Se puede mejorar?
 
       public static void ej3() {
         //Escribe un programa que muestre los n primeros términos de la serie de Fibonacci. El primer término de la serie de Fibonacci es 0, el segundo es 1 y el resto se calcula sumando los dos anteriores, por lo que tendríamos que los términos son 0, 1, 1, 2, 3, 5, 8, 13, 21, 34, 55, 89, 144... El número n se debe introducir por teclado.
