@@ -75,7 +75,8 @@ public class EjerciciosClase {
         if (variableA <= variableB){
             System.out.println("variableA es menor que variableB");
         }
-//Observacion: Esta perfecta la implementacion, tambien se podrian mostrar aquellas donde no se cumple con la condicion(caso false)
+//Observacion: Esta perfecta la implementacion, tambien se podrian mostrar aquellas donde no se cumple
+// con la condicion(caso false)
 
         System.out.println("\033[36m"+"\n//--EJERCICIO 4--//"+"\u001B[0m");
         /** 4) Enseñar las tablas de multiplicar del 1 al 10 */
