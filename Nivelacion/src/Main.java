@@ -198,11 +198,7 @@ public class Main {
     //repasoEjercicio4();
     repasoEjercicio5();
     //repasoEjercicio6();
-    //repasoEjercicio7();
-    //repasoEjercicio8();
-    //repasoEjercicio9();
-    //repasoEjercicio10();
-    }
+     }
     // Repaso Inicio Ejercicio Nro 1 //
    public static void repasoEjercicio1 ()
     {
@@ -401,39 +397,20 @@ public class Main {
 
     // Repaso Fin Ejercicio Nro 5 //
     /**----------------------------------------------------------------------------------------*/
+    /**
+     *
+     13)	Implementa un programa que lea tres números enteros representando año, mes y día. Con esta
+     información:
+     ★	Instancia un objeto LocalDateTime.
+     ★	Muestra la fecha completa por consola.
+     ★	Determina si la fecha y hora creadas son posterior, anterior o igual a la fecha y hora actual.
+     ★	Formatea la fecha y hora al patrón "dd-MM-yyyy HH:mm:ss".
 
+     */
     // Repaso Inicio Ejercicio Nro 6 /
     public static void repasoEjercicio6 () {
 
     }
     // Repaso Fin Ejercicio Nro 6 //
     /**----------------------------------------------------------------------------------------*/
-
-    // Repaso Inicio Ejercicio Nro 7 /
-    public static void repasoEjercicio7 () {
-
-    }
-    // Repaso Fin Ejercicio Nro 7 //
-
-    /**----------------------------------------------------------------------------------------*/
-
-    // Repaso Inicio Ejercicio Nro 8 /
-    public static void repasoEjercicio8 () {
-
-    }
-    // Repaso Fin Ejercicio Nro 8 //
-    /**----------------------------------------------------------------------------------------*/
-
-    // Repaso Inicio Ejercicio Nro 9 /
-    public static void repasoEjercicio9 () {
-
-    }
-    // Repaso Fin Ejercicio Nro 9 //
-    /**----------------------------------------------------------------------------------------*/
-
-    // Repaso Inicio Ejercicio Nro 10 /
-    public static void repasoEjercicio10 () {
-
-    }
-    // Repaso Fin Ejercicio Nro 10 //
 }
