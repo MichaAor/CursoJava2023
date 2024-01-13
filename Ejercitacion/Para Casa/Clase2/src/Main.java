@@ -65,7 +65,7 @@ public class Main {
         int numeroIngresado = Integer.parseInt(datoIngresado);
         String cadenaFibonacci = "";
             // caso que se solicite factorial de 1
-        cadenaFibonacci.substring()
+
         if (numeroIngresado == 1) {
             System.out.println("La serie es: 0");
             // caso que se solicite factorial de 2
