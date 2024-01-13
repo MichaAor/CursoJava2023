@@ -1,4 +1,7 @@
+import org.w3c.dom.ls.LSOutput;
+
 import javax.crypto.spec.PSource;
+import java.sql.SQLOutput;
 import java.util.Scanner;
 
 public class Main {
@@ -180,5 +183,65 @@ public class Main {
     // Fin Ejercicio Nro 5 //
    }
  **/
+
+/**----------------------------------------------------------------------------------------*/
+/**----------------------------------------------------------------------------------------*/
+/**----------------------------------------------------------------------------------------*/
+    // Repaso //
+    repasoEjercicio1();
+    repasoEjercicio2();
     }
+    // Repaso Inicio Ejercicio Nro 1 //
+   public static void repasoEjercicio1 ()
+    {
+        /**
+         * 8)	Escribe un programa Java que demuestre el uso de clases wrapper para convertir un int a un
+         * Integer y realizar una operación aritmética.
+         *
+         */
+
+        int valorEjemploInt = 100;
+        Integer valorEjemploInteger = null;
+        System.out.println("El valor de la variable declarada como int es: "+ valorEjemploInt);
+        System.out.println("El valor de la variable declarada como Integer es: "+ valorEjemploInteger);
+
+        //Convierto a Integer
+        valorEjemploInteger = valorEjemploInt;
+        System.out.println("Luego de la conversion de int a Integer,el valor de la variable Integer es: "+ valorEjemploInteger);
+        valorEjemploInteger = valorEjemploInteger * 2;
+        System.out.println("El valor de la variable Integer luego de multiplicarla por 2, es: "+ valorEjemploInteger);
+    }
+
+    // Repaso Fin Ejercicio Nro 1 //
+/**----------------------------------------------------------------------------------------*/
+
+// Repaso Inicio Ejercicio Nro 2 //
+    public static void repasoEjercicio2 () {
+
+
+/** 9)	Ingresar por teclado todos tus datos personales para armar un cv y mostrarlo por pantalla.
+ *
+ */
+        System.out.print("Ejercicio2 CV");
+        System.out.print("\033[33m" + "\nIngrese Apellido y Nombre: " + "\u001B[0m");
+        Scanner scannerBasic = new Scanner(System.in);
+        String apellidoNombre = scannerBasic.nextLine();
+        System.out.print("\033[33m" + "\nIngrese Direccion: " + "\u001B[0m");
+        String direccion = scannerBasic.nextLine();
+        System.out.print("\033[33m" + "\nIngrese Localidad: " + "\u001B[0m");
+        String localidad = scannerBasic.nextLine();
+
+        System.out.println("-------Curriculum Vitae-------");
+        System.out.println(" ");
+        System.out.println(">Datos Personales<");
+        System.out.println("Apellido y Nmbre: "+apellidoNombre);
+        System.out.println("Direccion: "+direccion);
+        System.out.println("Localidad: "+localidad);
+        System.out.println(" ");
+        System.out.println(">Estudios<");
+        System.out.println("-------Curriculum Vitae-------");
+    }
+// Repaso Fin Ejercicio Nro 2 //
 }
+
+

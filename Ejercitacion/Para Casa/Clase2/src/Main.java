@@ -3,6 +3,7 @@ import java.util.Scanner;
 public class Main {
     public static void main(String[] args) {
 
+
         /*
 
             1)	Clasifica y menciona al menos 2 ejemplos de Operadores.
@@ -54,6 +55,7 @@ public class Main {
                 son 0, 1, 1, 2, 3, 5, 8, 13, 21, 34, 55, 89, 144... El número n se debe introducir por teclado.
 
 */
+
         int fibonacci[];
         fibonacci = new int[500];
         System.out.println("\033[36m" + "//--EJERCICIO 6--\\" + "\u001B[0m");
@@ -63,6 +65,7 @@ public class Main {
         int numeroIngresado = Integer.parseInt(datoIngresado);
         String cadenaFibonacci = "";
             // caso que se solicite factorial de 1
+        cadenaFibonacci.substring()
         if (numeroIngresado == 1) {
             System.out.println("La serie es: 0");
             // caso que se solicite factorial de 2
@@ -91,4 +94,7 @@ public class Main {
             //Observsacion: Ser mas declarativo, ordenado y sobre todo, comentar el codigo (por mas que sea un algoritmo faciles.
         }
     }
+
+
+
 }
