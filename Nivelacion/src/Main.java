@@ -2,6 +2,10 @@ import org.w3c.dom.ls.LSOutput;
 
 import javax.crypto.spec.PSource;
 import java.sql.SQLOutput;
+import java.time.LocalDate;
+import java.time.format.DateTimeFormatter;
+import java.time.temporal.ChronoUnit;
+import java.util.Formatter;
 import java.util.Scanner;
 
 public class Main {
@@ -188,8 +192,9 @@ public class Main {
 /**----------------------------------------------------------------------------------------*/
 /**----------------------------------------------------------------------------------------*/
     // Repaso //
-    repasoEjercicio1();
-    repasoEjercicio2();
+    //repasoEjercicio1();
+    //repasoEjercicio2();
+    repasoEjercicio3();
     }
     // Repaso Inicio Ejercicio Nro 1 //
    public static void repasoEjercicio1 ()
@@ -242,6 +247,107 @@ public class Main {
         System.out.println("-------Curriculum Vitae-------");
     }
 // Repaso Fin Ejercicio Nro 2 //
+
+    /**----------------------------------------------------------------------------------------*/
+
+// Repaso Inicio Ejercicio Nro 3 //
+
+    /**10)	Crear un programa que determine en qué día de la semana naciste y cuántos días
+     *      faltan para tu próximo cumpleaños.
+     */
+
+    public static void repasoEjercicio3 () {
+        System.out.print("Ejercicio3");
+        System.out.print("\033[33m" + "\nIngrese Fecha de nacimiento (yyyy-mm-dd): " + "\u001B[0m");
+        Scanner scannerBasic = new Scanner(System.in);
+        String fechaNacimientoStr = scannerBasic.nextLine();
+        LocalDate fechaNacimiento = LocalDate.parse(fechaNacimientoStr);
+        DateTimeFormatter formato = DateTimeFormatter.ofPattern("E");
+        String diaNacimiento = null;
+        switch(fechaNacimiento.format(formato)){
+            case "lun":
+                diaNacimiento = "Lunes";
+                break;
+            case "mar":
+                diaNacimiento = "Martes";
+                break;
+            case "mié":
+                diaNacimiento = "Miércoles";
+                break;
+            case "jue":
+                diaNacimiento = "Jueves";
+                break;
+            case "vie":
+                diaNacimiento = "Viernes";
+                break;
+            case "sáb":
+                diaNacimiento = "Sábado";
+                break;
+            case "dom":
+                diaNacimiento = "Domingo";
+                break;
+        }
+
+        System.out.println("Tu dia de nacimiento fue: "+diaNacimiento);
+
+        if (fechaNacimiento.isAfter(LocalDate.now())){
+            System.out.println("Faltan " + ChronoUnit.DAYS.between(LocalDate.now(),fechaNacimiento)+ " para tu cumpleaños.");
+        } else {
+            System.out.println("Pasaron " + ChronoUnit.DAYS.between(fechaNacimiento,LocalDate.now())+ " para tu cumpleaños.");
+        }
+        }
+    // Repaso Fin Ejercicio Nro 3 //
+    /**----------------------------------------------------------------------------------------*/
+/**
+ * 11)	Escribe un programa que utilice al menos tres métodos de la clase Math para realizar operaciones
+ * matemáticas y muestre los resultados.
+ */
+    // Repaso Inicio Ejercicio Nro 4 /
+    public static void repasoEjercicio4 () {
+
+    }
+    // Repaso Fin Ejercicio Nro 4 //
+    /**----------------------------------------------------------------------------------------*/
+
+    // Repaso Inicio Ejercicio Nro 5 /
+    public static void repasoEjercicio5 () {
+
+    }
+    // Repaso Fin Ejercicio Nro 5 //
+    /**----------------------------------------------------------------------------------------*/
+
+    // Repaso Inicio Ejercicio Nro 6 /
+    public static void repasoEjercicio6 () {
+
+    }
+    // Repaso Fin Ejercicio Nro 6 //
+    /**----------------------------------------------------------------------------------------*/
+
+    // Repaso Inicio Ejercicio Nro 7 /
+    public static void repasoEjercicio7 () {
+
+    }
+    // Repaso Fin Ejercicio Nro 7 //
+
+    /**----------------------------------------------------------------------------------------*/
+
+    // Repaso Inicio Ejercicio Nro 8 /
+    public static void repasoEjercicio8 () {
+
+    }
+    // Repaso Fin Ejercicio Nro 8 //
+    /**----------------------------------------------------------------------------------------*/
+
+    // Repaso Inicio Ejercicio Nro 9 /
+    public static void repasoEjercicio9 () {
+
+    }
+    // Repaso Fin Ejercicio Nro 9 //
+    /**----------------------------------------------------------------------------------------*/
+
+    // Repaso Inicio Ejercicio Nro 10 /
+    public static void repasoEjercicio10 () {
+
+    }
+    // Repaso Fin Ejercicio Nro 10 //
 }
-
-
