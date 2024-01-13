@@ -2,18 +2,7 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/Ejercitacion/Para Casa/Clase1/Clase1.iml" filepath="$PROJECT_DIR$/Ejercitacion/Para Casa/Clase1/Clase1.iml" />
-      <module fileurl="file://$PROJECT_DIR$/Codigo de Clase/Clase1/Clase11.iml" filepath="$PROJECT_DIR$/Codigo de Clase/Clase1/Clase11.iml" />
-      <module fileurl="file://$PROJECT_DIR$/Ejercitacion/Para Casa/Clase2/Clase2.iml" filepath="$PROJECT_DIR$/Ejercitacion/Para Casa/Clase2/Clase2.iml" />
-      <module fileurl="file://$PROJECT_DIR$/Codigo de Clase/Clase2/Clase21.iml" filepath="$PROJECT_DIR$/Codigo de Clase/Clase2/Clase21.iml" />
-      <module fileurl="file://$PROJECT_DIR$/Codigo de Clase/Clase3/Clase3.iml" filepath="$PROJECT_DIR$/Codigo de Clase/Clase3/Clase3.iml" />
-      <module fileurl="file://$PROJECT_DIR$/Ejercitacion/Para Casa/Clase3/Clase31.iml" filepath="$PROJECT_DIR$/Ejercitacion/Para Casa/Clase3/Clase31.iml" />
-      <module fileurl="file://$PROJECT_DIR$/Codigo de Clase/Clase4/Clase4.iml" filepath="$PROJECT_DIR$/Codigo de Clase/Clase4/Clase4.iml" />
-      <module fileurl="file://$PROJECT_DIR$/Ejercitacion/Para Casa/Clase4/Clase41.iml" filepath="$PROJECT_DIR$/Ejercitacion/Para Casa/Clase4/Clase41.iml" />
-      <module fileurl="file://$PROJECT_DIR$/Codigo de Clase/Clase5/Clase5.iml" filepath="$PROJECT_DIR$/Codigo de Clase/Clase5/Clase5.iml" />
-      <module fileurl="file://$PROJECT_DIR$/Codigo de Clase/Clase6/Clase6.iml" filepath="$PROJECT_DIR$/Codigo de Clase/Clase6/Clase6.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/CursoJava2023.iml" filepath="$PROJECT_DIR$/.idea/CursoJava2023.iml" />
-      <module fileurl="file://$PROJECT_DIR$/Nivelacion/Nivelacion.iml" filepath="$PROJECT_DIR$/Nivelacion/Nivelacion.iml" />
     </modules>
   </component>
 </project>
