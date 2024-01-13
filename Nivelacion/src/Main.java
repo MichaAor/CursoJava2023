@@ -195,13 +195,13 @@ public class Main {
     //repasoEjercicio1();
     //repasoEjercicio2();
     //repasoEjercicio3();
-      repasoEjercicio4();
-      //repasoEjercicio5();
-        //repasoEjercicio6();
-        //repasoEjercicio7();
-        //repasoEjercicio8();
-        //repasoEjercicio9();
-        //repasoEjercicio10();
+    //repasoEjercicio4();
+    repasoEjercicio5();
+    //repasoEjercicio6();
+    //repasoEjercicio7();
+    //repasoEjercicio8();
+    //repasoEjercicio9();
+    //repasoEjercicio10();
     }
     // Repaso Inicio Ejercicio Nro 1 //
    public static void repasoEjercicio1 ()
@@ -254,6 +254,7 @@ public class Main {
         System.out.println(" ");
         System.out.println(">Estudios<");
         System.out.println("-------Curriculum Vitae-------");
+        scannerBasic.close();
     }
 // Repaso Fin Ejercicio Nro 2 //
 
@@ -307,6 +308,7 @@ public class Main {
         } else {
             System.out.println("Pasaron " + ChronoUnit.DAYS.between(fechaNacimiento,LocalDate.now())+ " para tu cumpleaños.");
         }
+        scannerBasic.close();
         }
     // Repaso Fin Ejercicio Nro 3 //
     /**----------------------------------------------------------------------------------------*/
@@ -322,25 +324,81 @@ public class Main {
         Integer resultado1 = null;
         Integer resultado2 = null;
         Double resultado3 = null;
-
+        //uso de max
         resultado1 = Math.max(valor1,valor2);
         resultado2 = Math.max(resultado1,valor3);
         System.out.println("El valor maximo entre los valores: "+valor1+" , "+valor2+" y " + valor3 +" es: "+resultado2);
-
+        //uso de random
         resultado3 = Math.random()*10;
         System.out.println("Numero al azar entre 1 y 10 es: " + resultado3.intValue());
-
+        //uso de log
         System.out.println("El logaritmo natural: " +Math.log(resultado3) + " corresponiente al numero al azar: "+ resultado3.intValue());
-
-
     }
     // Repaso Fin Ejercicio Nro 4 //
     /**----------------------------------------------------------------------------------------*/
-
+    /**
+     * 12)	Desarrolla un programa que solicite al usuario ingresar una serie de números hasta
+     * que introduzca un valor negativo. Luego, realiza las siguientes estadísticas:
+     * ❖	Número máximo y mínimo.
+     * ❖	Promedio de los números ingresados.
+     * ❖	Suma total.
+     * ❖	Cantidad de números primos y no primos.
+     */
     // Repaso Inicio Ejercicio Nro 5 /
     public static void repasoEjercicio5 () {
-
+        Scanner scannerBasic = new Scanner(System.in);
+        Integer valorMaximo = 0;
+        Integer valorMinimo = 999999999;
+        Integer sumatoriaNumeros = 0;
+        Integer cantPrimos = 0;
+        Integer cantidadNumeros = 0;
+        Integer numeroIngresado = null;
+        Double  promedio = 0D;
+        do{
+            System.out.print("\033[33m" + "\nIngrese numero (finaliza con negativo): " + "\u001B[0m");
+            numeroIngresado = scannerBasic.nextInt();
+            if(numeroIngresado > 0) {
+                if (numeroIngresado > valorMaximo) {
+                    valorMaximo = numeroIngresado;
+                }
+                if (numeroIngresado < valorMinimo) {
+                    valorMinimo = numeroIngresado;
+                }
+                if (esPrimo(numeroIngresado)) {
+                    cantPrimos++;
+                }
+                sumatoriaNumeros = sumatoriaNumeros + numeroIngresado;
+                cantidadNumeros++;
+            }
+        } while (numeroIngresado > 0);
+        System.out.println("El numero maximo ingresado fue: " + valorMaximo);
+        System.out.println("El numero minimo ingresado fue: " + valorMinimo);
+        promedio = (double) (sumatoriaNumeros/cantidadNumeros);
+        System.out.println("El promedio fue: "+ promedio);
+        System.out.println("Suma total: "+sumatoriaNumeros);
+        System.out.println("Cantidad de primos: " + cantPrimos);
+        System.out.println("Cantidad de no primos: "+ (cantidadNumeros - cantPrimos));
+        scannerBasic.close();
     }
+    // Función para verificar si un número es primo
+    public static Boolean esPrimo(Integer numeroIngresado){
+        if (numeroIngresado <= 0) {
+            return false;
+        } else if (Math.floorMod(numeroIngresado, 2) == 0) {
+            return false;
+        } else if (Math.floorMod(numeroIngresado, 3) == 0) {
+            return false;
+        } else if (Math.floorMod(numeroIngresado, 5) == 0) {
+            return false;
+        } else if (Math.floorMod(numeroIngresado, 7) == 0) {
+            return false;
+        } else if (Math.floorMod(numeroIngresado, 11) == 0) {
+            return false;
+        } else {
+            return true;
+        }
+    }
+
     // Repaso Fin Ejercicio Nro 5 //
     /**----------------------------------------------------------------------------------------*/
 

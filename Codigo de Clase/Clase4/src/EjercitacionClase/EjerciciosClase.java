@@ -122,6 +122,7 @@ public class EjerciciosClase {
                 }
             }
             System.out.println("La cantidad de dias laborables es: " + diasLaborables);
+
         }
 //Observacion:
 //  *Excelente documentacion.
