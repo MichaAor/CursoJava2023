@@ -194,7 +194,14 @@ public class Main {
     // Repaso //
     //repasoEjercicio1();
     //repasoEjercicio2();
-    repasoEjercicio3();
+    //repasoEjercicio3();
+      repasoEjercicio4();
+      //repasoEjercicio5();
+        //repasoEjercicio6();
+        //repasoEjercicio7();
+        //repasoEjercicio8();
+        //repasoEjercicio9();
+        //repasoEjercicio10();
     }
     // Repaso Inicio Ejercicio Nro 1 //
    public static void repasoEjercicio1 ()
@@ -228,6 +235,7 @@ public class Main {
  *
  */
         System.out.print("Ejercicio2 CV");
+        // Capturo datos del CV
         System.out.print("\033[33m" + "\nIngrese Apellido y Nombre: " + "\u001B[0m");
         Scanner scannerBasic = new Scanner(System.in);
         String apellidoNombre = scannerBasic.nextLine();
@@ -236,6 +244,7 @@ public class Main {
         System.out.print("\033[33m" + "\nIngrese Localidad: " + "\u001B[0m");
         String localidad = scannerBasic.nextLine();
 
+        // informo datos del CV
         System.out.println("-------Curriculum Vitae-------");
         System.out.println(" ");
         System.out.println(">Datos Personales<");
@@ -262,8 +271,10 @@ public class Main {
         Scanner scannerBasic = new Scanner(System.in);
         String fechaNacimientoStr = scannerBasic.nextLine();
         LocalDate fechaNacimiento = LocalDate.parse(fechaNacimientoStr);
+        //formateo a dia de la semana
         DateTimeFormatter formato = DateTimeFormatter.ofPattern("E");
         String diaNacimiento = null;
+        //convierto a dia de la semana amigable para el usuario
         switch(fechaNacimiento.format(formato)){
             case "lun":
                 diaNacimiento = "Lunes";
@@ -290,6 +301,7 @@ public class Main {
 
         System.out.println("Tu dia de nacimiento fue: "+diaNacimiento);
 
+        //determino si la fecha de cumpleaños esta antes o despues de la fecha actual
         if (fechaNacimiento.isAfter(LocalDate.now())){
             System.out.println("Faltan " + ChronoUnit.DAYS.between(LocalDate.now(),fechaNacimiento)+ " para tu cumpleaños.");
         } else {
@@ -304,6 +316,22 @@ public class Main {
  */
     // Repaso Inicio Ejercicio Nro 4 /
     public static void repasoEjercicio4 () {
+        Integer valor1 = 500;
+        Integer valor2 = 100;
+        Integer valor3 = 20;
+        Integer resultado1 = null;
+        Integer resultado2 = null;
+        Double resultado3 = null;
+
+        resultado1 = Math.max(valor1,valor2);
+        resultado2 = Math.max(resultado1,valor3);
+        System.out.println("El valor maximo entre los valores: "+valor1+" , "+valor2+" y " + valor3 +" es: "+resultado2);
+
+        resultado3 = Math.random()*10;
+        System.out.println("Numero al azar entre 1 y 10 es: " + resultado3.intValue());
+
+        System.out.println("El logaritmo natural: " +Math.log(resultado3) + " corresponiente al numero al azar: "+ resultado3.intValue());
+
 
     }
     // Repaso Fin Ejercicio Nro 4 //
