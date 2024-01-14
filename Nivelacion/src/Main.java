@@ -4,6 +4,7 @@ import javax.crypto.spec.PSource;
 import java.sql.SQLOutput;
 import java.time.LocalDate;
 import java.time.format.DateTimeFormatter;
+import java.time.format.FormatStyle;
 import java.time.temporal.ChronoUnit;
 import java.util.Formatter;
 import java.util.Scanner;
@@ -196,8 +197,9 @@ public class Main {
     //repasoEjercicio2();
     //repasoEjercicio3();
     //repasoEjercicio4();
-    repasoEjercicio5();
+    //repasoEjercicio5();
     //repasoEjercicio6();
+      repasoEjercicio7();
      }
     // Repaso Inicio Ejercicio Nro 1 //
    public static void repasoEjercicio1 ()
@@ -409,8 +411,90 @@ public class Main {
      */
     // Repaso Inicio Ejercicio Nro 6 /
     public static void repasoEjercicio6 () {
+        System.out.print("\033[33m" + "\nIngrese Año : " + "\u001B[0m");
+        Scanner scannerBasic = new Scanner(System.in);
+        String variableAno = scannerBasic.nextLine();
+        System.out.print("\033[33m" + "\nIngrese Mes : " + "\u001B[0m");
+        String variableMes = scannerBasic.nextLine();
+        System.out.print("\033[33m" + "\nIngrese Dia : " + "\u001B[0m");
+        String variableDia = scannerBasic.nextLine();
+        LocalDate diaIngresado = LocalDate.parse(variableAno+"-"+variableMes+"-"+variableDia);
+        System.out.println("La fecha ingresada fue: " +diaIngresado);
+        DateTimeFormatter formato = DateTimeFormatter.ofLocalizedDateTime(FormatStyle.LONG);
+
+
+        if(diaIngresado.isBefore(LocalDate.now())){
+            System.out.println("La fecha ingresada es anterior a la fecha actual");
+        }else{
+            System.out.println("La fecha ingresada es posterior o igual a la fecha actual");
+        }
 
     }
     // Repaso Fin Ejercicio Nro 6 //
     /**----------------------------------------------------------------------------------------*/
-}
+
+    /**
+     *
+     14)	Crea un programa que simule un juego con las siguientes características:
+     1)	Se debe ingresar por teclado un número entero positivo.
+     2)	El jugador empieza con 0 puntos.
+     3)	Si el número ingresado es un número de Fibonacci, el jugador gana 5 puntos.
+     4)	Se mostrará el evento “Es un número de Fibonacci, ganas 5 puntos y tienes x puntos”.
+     5)	Si no es un número de Fibonacci, el jugador pierde 2 puntos.
+     6)	Se mostrará el evento “No es un número de Fibonacci, pierdes 2 puntos y tienes x puntos”.
+     7)	Cada nuevo número ingresado debe ser mayor al anterior.
+     8)	Se gana al conseguir 100 puntos.
+     9)	Cuando los puntos < 0, la partida termina.
+     */
+    // Repaso Inicio Ejercicio Nro 7 /
+    public static void repasoEjercicio7 () {
+        System.out.println("\033[36m" + "//--EJERCICIO 7--\\" + "\u001B[0m");
+
+        Scanner scannerBasic = new Scanner(System.in);
+        int puntosAcumulados = 0;
+        String datoIngresado;
+        int numeroIngresado;
+        do {
+            System.out.print("\033[33m" + "Ingrese entero positivo: " + "\u001B[0m");
+            datoIngresado = scannerBasic.next();
+            numeroIngresado = Integer.parseInt(datoIngresado);
+
+            if (esFibonacci(numeroIngresado)) {
+                puntosAcumulados = puntosAcumulados + 5;
+                System.out.println("Es un número de Fibonacci, ganas 5 puntos y tienes. " + puntosAcumulados + " puntos");
+            } else {
+                puntosAcumulados = puntosAcumulados - 2;
+                System.out.println("No es un número de Fibonacci, perdio 2 puntos y tienes " + puntosAcumulados + " puntos");
+            }
+        } while (puntosAcumulados > 0 && puntosAcumulados != 100);
+        if(puntosAcumulados == 100){
+            System.out.println("Gano la partida");
+        }else {
+            System.out.println("Perdio la partida");
+        }
+    }
+    public static boolean esFibonacci(int numeroIngresado) {
+        int fibonacci[];
+        fibonacci = new int[500];
+        String cadenaFibonacci = "";
+        // caso que se solicite factorial de 1
+
+        if (numeroIngresado == 0 || numeroIngresado == 1 || numeroIngresado == 2) {
+            return true;
+        } else if (numeroIngresado > 2) {
+            fibonacci[0] = 0;
+            fibonacci[1] = 1;
+            for (int i = 2; i <= numeroIngresado+1; i++) {
+                //Lleno un vector con el calculo de cada numero fibonacci
+                fibonacci[i] = fibonacci[i - 1] + fibonacci[i - 2];
+                //Verifico si es fibonacci, si lo es devuelvo true.
+                if (fibonacci[i] == numeroIngresado) {
+                    return true;
+                }
+            }
+        }
+        // Si el numero ingresado no es fibonacci devuelvo falso.
+        return false;
+    }
+        // Repaso Fin Ejercicio Nro 7 //
+ }
