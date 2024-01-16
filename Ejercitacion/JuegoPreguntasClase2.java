@@ -44,4 +44,6 @@ public class JuegoPreguntasClase2 {
             JOptionPane.showMessageDialog(null, "Tu puntuación es: " + puntuacion);
     }
 
+    //Observacion: Trabajo excelentemente codeado, ordenado y explicado.
+    //Observacion: Esta excelente, aunque, tratemos de usar lo que fuimos viendo hasta ahora.
 }

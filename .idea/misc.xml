@@ -1,5 +1,9 @@
 <project version="4">
+<<<<<<< HEAD
   <component name="ProjectRootManager" version="2" project-jdk-name="11" project-jdk-type="JavaSDK">
+=======
+  <component name="ProjectRootManager" version="2" project-jdk-name="corretto-17" project-jdk-type="JavaSDK">
+>>>>>>> origin/Vero-Branch
     <output url="file://$PROJECT_DIR$/out" />
   </component>
 </project>

@@ -4,7 +4,7 @@ Realizar un programa que simule una calculadora, donde realice las operaciones b
 
 package nivelatorio;
 import javax.swing.*;
-
+// comentario cualqiera
 public class Calculadora {
         public static void main(String[] args) {
                 String strNum1 = JOptionPane.showInputDialog("Ingrese el primer numero: ");
@@ -40,4 +40,6 @@ public class Calculadora {
 
                 JOptionPane.showMessageDialog(null, "El resultado de la operacion es: " + resultado);
         }
+
+        //Observacion: Muy buen trabajo, la organizacion es genial junto con la presentacion.
 }

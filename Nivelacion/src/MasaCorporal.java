@@ -42,4 +42,6 @@ public class MasaCorporal {
             System.out.println("Usted debe ser Hospitalizado");
         }
     }
+    //Observacion: Excelente distribucion del codigo, se puede leer muy bien.
+    //Observacion:Excelente uso de los metodos / funciones, aunque no te olvides que van al final.
 }

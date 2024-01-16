@@ -34,5 +34,5 @@ public class Promedio {
             System.out.println("Sobresaliente");
         }
     }
-
+//Observacion: Cumple con su funcionamiento y esta bien codeado, aunque le falta organizacion en la presentacion.
 }
