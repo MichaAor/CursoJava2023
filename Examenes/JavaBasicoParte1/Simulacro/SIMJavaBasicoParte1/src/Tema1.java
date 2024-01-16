@@ -4,6 +4,7 @@ import java.util.Scanner;
 
 public class Tema1 {
     public static void main(String[] args) {
+        System.out.println("\033[33m" + "\n//----TEMA 1----//" + "\u001B[0m");
         ejercicio6();
         //ejercicio7();
         //ejercicio8();
