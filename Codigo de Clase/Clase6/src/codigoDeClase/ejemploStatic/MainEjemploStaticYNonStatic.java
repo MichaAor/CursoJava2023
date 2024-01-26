@@ -1,4 +1,4 @@
-package codigoDeClase.ejemploStaticyNonStatic;
+package codigoDeClase.ejemploStatic;
 
 public class MainEjemploStaticYNonStatic {
     public static void main(String[] args) {

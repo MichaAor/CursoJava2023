@@ -1,4 +1,4 @@
-package codigoDeClase.ejemploStaticyNonStatic;
+package codigoDeClase.ejemploStatic;
 
 //! Bloques, métodos y atributos STATIC
 public class DemoStatic {

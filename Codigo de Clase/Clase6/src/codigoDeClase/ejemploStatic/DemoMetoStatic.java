@@ -1,4 +1,4 @@
-package codigoDeClase.ejemploStaticyNonStatic;
+package codigoDeClase.ejemploStatic;
 
 public class DemoMetoStatic {
 //! Método estático

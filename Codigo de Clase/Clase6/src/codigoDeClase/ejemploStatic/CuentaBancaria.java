@@ -1,4 +1,4 @@
-package codigoDeClase.ejemploStaticyNonStatic;
+package codigoDeClase.ejemploStatic;
 
 public class CuentaBancaria {
     // Atributo estático para contar el número total de cuentas
