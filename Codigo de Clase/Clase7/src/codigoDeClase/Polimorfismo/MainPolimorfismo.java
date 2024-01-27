@@ -1,4 +1,4 @@
-package codigoDeClase.Poliformismo;
+package codigoDeClase.Polimorfismo;
 
 /*
 !   POLIMORFISMO
@@ -14,11 +14,11 @@ package codigoDeClase.Poliformismo;
 */
 public class MainPolimorfismo{
     public static void main(String[] args) {
-//! Declaración y Asignación o inicializacion;
+//? Declaración y Asignación o inicializacion;
         Circulo circulo = new Circulo();
         Cuadrado cuadrado = new Cuadrado();
 
-//! Ambos aplican el mismo método ejecutado de diferente manera
+//? Ambos aplican el mismo método ejecutado de diferente manera
         double areaCirculo = circulo.calcularArea();
         double areaCuadrado = cuadrado.calcularArea();
 

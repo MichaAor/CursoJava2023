@@ -1,7 +1,7 @@
-package codigoDeClase.ejemploStatic;
+package codigoDeClase.ejemploStatic.simpledemo;
 
 //! Bloques, métodos y atributos STATIC
-public class DemoStatic {
+public class StaticGral {
 //? Atributo STATIC    
     static int atrSt = metSt();
 
@@ -14,11 +14,5 @@ public class DemoStatic {
     static int metSt(){
         System.out.println("Desde metSt");
     return 8;
-    }
-
-//! Método STATIC (main!!)    
-    public static void main(String[] args){
-        System.out.println("Valor de atrST: " + atrSt);
-        System.out.println("Desde main");
     }
 }

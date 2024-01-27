@@ -1,4 +1,4 @@
-package codigoDeClase.ejemploPOO;
+package codigoDeClase;
 
 //! DECLARACION CLASE 'Persona'.
 //? Ejemplo sin uso de 'MODIFICADORES DE ACCESO' en atributos y metodos ,por defecto son 'private'.

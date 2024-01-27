@@ -1,4 +1,4 @@
-package codigoDeClase.ejemploPOO;
+package codigoDeClase;
 
 public class MainEjemploPOO {
     public static void main(String[] args) {

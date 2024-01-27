@@ -1,4 +1,4 @@
-package codigoDeClase.Poliformismo;
+package codigoDeClase.Polimorfismo;
 
 public class Circulo implements Figura{
     @Override

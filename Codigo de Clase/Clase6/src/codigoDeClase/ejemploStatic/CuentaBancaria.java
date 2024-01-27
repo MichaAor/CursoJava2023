@@ -1,38 +1,38 @@
 package codigoDeClase.ejemploStatic;
 
 public class CuentaBancaria {
-    // Atributo estático para contar el número total de cuentas
+//? Atributo estático para contar el número total de cuentas
     private static int totalCuentas = 0;
 
-    // Atributos no estáticos
+//? Atributos no estáticos
     private String titular;
     private double saldo;
 
-    // Constructor
+// *Constructor
     public CuentaBancaria(String titular, double saldoInicial) {
         this.titular = titular;
         this.saldo = saldoInicial;
-        // Incrementar el número total de cuentas cada vez que se crea una nueva instancia
+//? Incrementar el número total de cuentas cada vez que se crea una nueva instancia
         totalCuentas++;
     }
 
-    // Método no estático para obtener el saldo de la cuenta
+// *Método no estático para obtener el saldo de la cuenta
     public double getSaldo() {
         return this.saldo;
     }
 
-    // Método no estático para obtener el titular de la cuenta
+// *Método no estático para obtener el titular de la cuenta
     public String getTitular(){
         return this.titular;
     }
 
-    // Método no estático para realizar un depósito
+// *Método no estático para realizar un depósito
     public void depositar(double cantidad) {
         saldo += cantidad;
         System.out.println("Depósito de " + cantidad + " realizado. Saldo actual: " + saldo);
     }
 
-    // Método no estático para realizar un retiro
+// *Método no estático para realizar un retiro
     public void retirar(double cantidad) {
         if (saldo >= cantidad) {
             saldo -= cantidad;
@@ -42,16 +42,16 @@ public class CuentaBancaria {
         }
     }
 
-    // Método estático para obtener el número total de cuentas
+//? Método estático para obtener el número total de cuentas
     public static int getTotalCuentas() {
         return totalCuentas;
     }
 
-    //Metodo no estatico toString para ver el estado de la instancia.
+// *Metodo no estatico toString para ver el estado de la instancia.
     @Override
     public String toString() {
         return "\n" + this.getClass().getSimpleName() +
                 "\n\t->Titular: " + this.getTitular() +
-                "\n\t->Saldo: " + this.getTitular();
+                "\n\t->Saldo: " + this.getSaldo();
     }
 }

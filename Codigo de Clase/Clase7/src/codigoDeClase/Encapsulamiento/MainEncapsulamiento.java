@@ -4,7 +4,8 @@ package codigoDeClase.Encapsulamiento;
 !   ENCAPSULAMIENTO:
 ?   Explicación: 
 *   En este ejemplo, se crea una clase CuentaBancaria que encapsula el saldo como un atributo privado.
-*       Los métodos públicos depositar y retirar son las únicas formas de interactuar con el saldo, lo que garantiza que las operaciones se realicen de manera controlada.
+*       Los métodos públicos depositar y retirar son las únicas formas de interactuar con el saldo,
+*       lo que garantiza que las operaciones se realicen de manera controlada.
 ?   Ventajas:
 *   -La modularidad y mantenibilidad del código: Al ocultar el detalle interno de cómo se gestiona el saldo,
 *       es más fácil modificar la implementación interna sin afectar el código externo.
