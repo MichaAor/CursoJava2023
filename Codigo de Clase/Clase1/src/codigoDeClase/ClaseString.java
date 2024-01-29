@@ -14,9 +14,14 @@ public class ClaseString {
         String cadena5 = "fundamentales";
         System.out.println("El tamaño de [cadena4] es de " + cadena4.length() + " caracteres");
         System.out.println("El caracter ubicado en la posicion [5] es: " + cadena4.charAt(5));
-        System.out.println("1 Los String 'cadena4' y 'cadena5' son iguales? " + cadena4.equals(cadena5));
-        System.out.println("2 Los String 'cadena4' y 'cadena5' son iguales? " + cadena4.equalsIgnoreCase(cadena5));
-        System.out.println("3 Los String 'cadena4' y 'cadena5' son iguales? " + (cadena4.compareTo(cadena5)));
+        System.out.println("Los String 'cadena4' y 'cadena5' son iguales? " + cadena4.equals(cadena5));
+        System.out.println("Los String 'cadena4' y 'cadena5' son iguales? " + cadena4.equalsIgnoreCase(cadena5));
+        System.out.println("Los String 'cadena4' y 'cadena5' son iguales? " + (cadena4.compareTo(cadena5)));
+        if(cadena4.compareTo(cadena5)==0){
+            System.out.println("las cadenas son iguales");
+        }else{
+            System.out.println("vero dice que no son iguales");
+        }
         System.out.println("El String 'cadena4' cambia a minusculas: " + cadena4.toLowerCase());
         System.out.println("La posicion donde comienza la palabra 'mentales' es: " + cadena4.indexOf("mentales"));
     }
