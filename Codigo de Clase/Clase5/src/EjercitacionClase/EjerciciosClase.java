@@ -44,10 +44,10 @@ class Empleado {
         String dni;
         String nombre;
         String apellido;
-        double salario;
+        float salario;
 
 
-    public Empleado(String dni, String nombre, String apellido, double salario) {
+    public Empleado(String dni, String nombre, String apellido, float salario) {
         this.dni = dni;
         this.nombre = nombre;
         this.apellido = apellido;
@@ -81,7 +81,7 @@ class Empleado {
         return salario;
     }
 
-    public void setSalario(double salario) {
+    public void setSalario(float salario) {
         this.salario = salario;
     }
 
@@ -95,6 +95,13 @@ class Empleado {
                 ", salario=" + salario +
                 '}';
     }
+    public double calcularSalarioAnual(){
+        return salario*12;
+    }
+    public void incrementarSalario(float porcentajeIncremento){
+        this.salario = (porcentajeIncremento * this.salario)/100;
+    }
+
 }
 public class EjerciciosClase {
     public static void main(String[] args) {
@@ -154,6 +161,19 @@ public class EjerciciosClase {
 //---------------------------------//
 //         Inicio Empleado         //
 //---------------------------------//
+/**
+ *     a. Inicialice un empleado Carlos Gutiérrez, con dni 23456345 y salario inicial de 25000.
+ *     b. Inicialice un empleado Ana Sánchez, con dni 34234123 y salario inicial de 27500.
+ *     c. Imprima ambos objetos por pantalla
+ *     d. Aumente el salario del empleado Carlos en un 15% e imprima en pantalla el salario anual del mismo.
+ */
+ Empleado empeadoMes1 = new Empleado("23456345","Carlos", "Gutiérrez",25000);
+ Empleado empeadoMes2 = new Empleado("34234123","Ana", "Sánchez",27500);
+ System.out.println(empeadoMes1);
+ System.out.println(empeadoMes2);
+ empeadoMes1.incrementarSalario(15);
+ System.out.println("El salario anual de: " + empeadoMes1.getNombre() + " " + empeadoMes1.apellido + " es: " + empeadoMes1.calcularSalarioAnual());
+
 
 //---------------------------------//
 //          Fin Empleado           //
