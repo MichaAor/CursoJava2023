@@ -1,5 +1,101 @@
 package EjercitacionClase;
+    class Rectangulo {
+        float ancho = 1.0f;
+        float alto = 1.0f;
+        public Rectangulo() {
+        }
+        public Rectangulo(float ancho, float alto) {
+            this.ancho = ancho;
+            this.alto = alto;
+        }
+        public float getAncho() {
+            return ancho;
+        }
+        public float getAlto() {
+            return alto;
+        }
 
+        public void setAncho(float ancho) {
+            this.ancho = ancho;
+        }
+        public void setAlto(float alto) {
+            this.alto = alto;
+        }
+
+        @Override
+        public String toString() {
+            return this.getClass().getSimpleName() +
+                    "\n ancho=" + this.ancho +
+                    "\n alto=" + this.alto +
+                    "\n area=" + this.calcularArea() +
+                    "\n perimetro=" + this.calcularPerimitero();
+        }
+
+        public float calcularArea() {
+            return (this.alto * this.ancho);
+        }
+
+        public float calcularPerimitero() {
+            return (this.alto * 2 + this.ancho * 2);
+        }
+    }
+class Empleado {
+
+        String dni;
+        String nombre;
+        String apellido;
+        double salario;
+
+
+    public Empleado(String dni, String nombre, String apellido, double salario) {
+        this.dni = dni;
+        this.nombre = nombre;
+        this.apellido = apellido;
+        this.salario = salario;
+    }
+    public String getDni() {
+        return dni;
+    }
+
+    public void setDni(String dni) {
+        this.dni = dni;
+    }
+
+    public String getNombre() {
+        return nombre;
+    }
+
+    public void setNombre(String nombre) {
+        this.nombre = nombre;
+    }
+
+    public String getApellido() {
+        return apellido;
+    }
+
+    public void setApellido(String apellido) {
+        this.apellido = apellido;
+    }
+
+    public double getSalario() {
+        return salario;
+    }
+
+    public void setSalario(double salario) {
+        this.salario = salario;
+    }
+
+
+    @Override
+    public String toString() {
+        return "Empleado{" +
+                "dni='" + dni + '\'' +
+                ", nombre='" + nombre + '\'' +
+                ", apellido='" + apellido + '\'' +
+                ", salario=" + salario +
+                '}';
+    }
+}
 public class EjerciciosClase {
     public static void main(String[] args) {
         /*
@@ -29,5 +125,41 @@ public class EjerciciosClase {
          *        c. Imprima ambos objetos por pantalla
          *        d. Aumente el salario del empleado Carlos en un 15% e imprima en pantalla el salario anual del mismo.
          */
+//---------------------------------//
+//        Inicio Rectangulo        //
+//---------------------------------//
+/**
+         *1) Modele el objeto Rectángulo con sus propiedades, ancho y alto. Ambas con valor
+                *    1,0 por defecto. Este objeto debe exponer los getters y setters necesarios. También
+                *    debe contar con un método para calcular el área y perímetro del mismo. Ejecute las
+                *    siguientes pruebas:
+*/
+
+//     a. Inicializar un objeto Rectángulo estableciendo ancho y alto.
+        Rectangulo rectangulo = new Rectangulo(2.1f, 1.0f);
+//     b. Imprimir por pantalla el alto y ancho.
+//     c. Imprimir por pantalla el área y perímetro.
+        System.out.println(rectangulo);
+//     d. Modificar el alto y el ancho de la instancia.
+//     e. Imprimir por pantalla nuevamente el cálculo del área y perímetro.
+        rectangulo.setAncho(10);
+        rectangulo.setAlto(20);
+        System.out.println(rectangulo);
+//     f. Inicializar un objeto Rectángulo con los valores por defecto y verificar.
+        Rectangulo rectangulo2 = new Rectangulo();
+        System.out.println(rectangulo2);
+//---------------------------------//
+//         Fin  Rectángulo         //
+//---------------------------------//
+//---------------------------------//
+//         Inicio Empleado         //
+//---------------------------------//
+
+//---------------------------------//
+//          Fin Empleado           //
+//---------------------------------//
     }
 }
+
+
+
