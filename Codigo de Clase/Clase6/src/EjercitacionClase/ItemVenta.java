@@ -1,10 +1,10 @@
 package EjercitacionClase;
 
 public class ItemVenta {
-    int identificador;
-    String descripcion;
-    int cantidad;
-    float precioUnitario;
+    private int identificador;
+    private String descripcion;
+    private int cantidad;
+    private float precioUnitario;
 
     public ItemVenta(int identificador, String descripcion, int cantidad, float precioUnitario) {
         this.identificador = identificador;

@@ -19,55 +19,63 @@ package EjercitacionClase;
          */
 
 public class CuentaBanco {
-   int identificador;
-   String nombre;
-   float balance;
+    static int identificador;
+    private int identificadorCuenta;
+    private String nombre;
+    private float balance;
 
-    public int getIdentificador() {
-        return identificador;
+    public CuentaBanco( String nombre, float balance) {
+        this.identificadorCuenta = identificador++;
+        this.nombre = nombre;
+        this.balance = balance;
     }
+
     public CuentaBanco(int identificador, String nombre, float balance) {
         this.identificador = identificador;
         this.nombre = nombre;
         this.balance = balance;
     }
-
-    public void setIdentificador(int identificador) {
-        this.identificador = identificador;
+    public int getIdentificador() {
+        return identificador;
     }
 
     public String getNombre() {
         return nombre;
     }
 
-    public void setNombre(String nombre) {
-        this.nombre = nombre;
-    }
-
     public float getBalance() {
         return balance;
+    }
+
+    public void setIdentificadorCuenta(int identificador) {
+        this.identificadorCuenta = identificador;
+    }
+
+    public void setNombre(String nombre) {
+        this.nombre = nombre;
     }
 
     public void setBalance(float balance) {
         this.balance = balance;
     }
+
     @Override
     public String toString() {
         return "CuentaBanco{" +
-                "identificador=" + identificador +
+                "identificador=" + this.identificadorCuenta +
                 ", nombre='" + nombre + '\'' +
                 ", balance=" + balance +
                 '}';
     }
     public float credito(float montoDeposito){
-        this.balance = this.balance +  montoDeposito;
+        this.balance +=  montoDeposito;
         return this.balance;
     }
     public float debito(float montoDebitar){
         if(this.balance <= montoDebitar){
             System.out.println("Sin saldo");
         }else{
-            this.balance = this.balance -  montoDebitar;
+            this.balance -= montoDebitar;
         }
         return this.balance;
     }

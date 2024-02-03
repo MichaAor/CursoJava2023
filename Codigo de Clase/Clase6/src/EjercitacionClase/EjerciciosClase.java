@@ -90,16 +90,20 @@ public class EjerciciosClase {
  *    4. Realice una operación de compra de 30000.
  *    5. Imprima por pantalla los valores de la cuenta y verifique que el balance sea correcto.
  *
-  */
-//---------------------------------//
-//        Fin Cuenta Banco         //
-//---------------------------------//
-  CuentaBanco miCuenta = new CuentaBanco(1,"Cuenta Corriente",1500);
+ */
+
+  CuentaBanco miCuenta = new CuentaBanco("Cuenta Corriente",1500);
+  CuentaBanco miCuenta2 = new CuentaBanco("Cuenta Corriente",1500);
   System.out.println("El balance antes de hacer el deposito es: "+ miCuenta.getBalance());
   float balance = miCuenta.credito(1500);
   System.out.println("El balance despues de hacer el deposito es: "+balance);
   balance = miCuenta.debito(30000);
   System.out.println(miCuenta);
+  System.out.println(miCuenta2);
+//---------------------------------//
+//        Fin Cuenta Banco         //
+//---------------------------------//
+
 //---------------------------------//
 //      Inicio Clase Producto      //
 //---------------------------------//

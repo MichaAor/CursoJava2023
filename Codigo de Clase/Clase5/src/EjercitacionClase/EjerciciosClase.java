@@ -99,7 +99,7 @@ class Empleado {
         return salario*12;
     }
     public void incrementarSalario(float porcentajeIncremento){
-        this.salario = (porcentajeIncremento * this.salario)/100;
+        this.salario += (porcentajeIncremento * this.salario)/100;
     }
 
 }
