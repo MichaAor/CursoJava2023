@@ -62,7 +62,8 @@ public class Medico {
     }
 
     
-//? Defiinicion de metodo: Se declara dentro de una clase siempre. Su alcance sera marcado por los modificadores de acceso y si es
+//? Defiinicion de metodo: Se declara dentro de una clase siempre. Su alcance sera marcado por los
+// modificadores de acceso y si es
 //? static o nonStatic. Puede o no tener parametros de entrada de datos.
 
 // *modificadorDeAcceso static/nonStatic TipoDeRetorno nombreDelMetodo(TipoDeDato parametro, TipoDeDato parametro2){

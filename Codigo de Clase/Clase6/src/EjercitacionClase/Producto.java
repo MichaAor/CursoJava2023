@@ -39,6 +39,10 @@ public class Producto {
         this.cantidadVendida = cantidadVendida;
     }
 
+    public String getNombre() {
+        return nombre;
+    }
+
     public float getPrecioVenta() {
         return precioVenta;
     }
@@ -61,10 +65,15 @@ public class Producto {
         this.stock = this.stock + cantidadComprada;
     }
 
-    public void venderProducto(int cantidadVendida ) {
-        this.stock = this.stock - cantidadVendida;
-        this.totalVendido = this.totalVendido + (this.precioVenta * cantidadVendida);
-        this.cantidadVendida = this.cantidadVendida + cantidadVendida;
+    public boolean venderProducto(int cantidadVendida ) {
+        if(this.stock >= cantidadVendida) {
+            this.stock = this.stock - cantidadVendida;
+            this.totalVendido = this.totalVendido + (this.precioVenta * cantidadVendida);
+            this.cantidadVendida = this.cantidadVendida + cantidadVendida;
+            return true;
+        }else {
+            return false;
+        }
     }
 
     @Override

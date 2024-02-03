@@ -173,8 +173,6 @@ public class EjerciciosClase {
  System.out.println(empeadoMes2);
  empeadoMes1.incrementarSalario(15);
  System.out.println("El salario anual de: " + empeadoMes1.getNombre() + " " + empeadoMes1.apellido + " es: " + empeadoMes1.calcularSalarioAnual());
-
-
 //---------------------------------//
 //          Fin Empleado           //
 //---------------------------------//
