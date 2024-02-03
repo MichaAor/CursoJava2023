@@ -115,7 +115,8 @@ public class EjerciciosClase {
  *    -stock
  *    -totalVendido
  *    -CantidadVendida
- * y realizar los metodos correspondientes para demostrar las siguientes estadisticas a traves del metodo toString():
+ * y realizar los metodos correspondientes para demostrar las siguientes estadisticas a traves del
+ * metodo toString():
  *  -Nombre
  *  -Precio
  *  -Stock disponible
@@ -123,9 +124,10 @@ public class EjerciciosClase {
  *  -Balance (Solo con positivo o negativo)
  *  -Unidades Vendidas.
  *
- *  Instanciar 3 productos y demostrar cual es el mas Rentable, no olvidarse de utilizar static cuando corresponda.
+ *  Instanciar 3 productos y demostrar cual es el mas Rentable, no olvidarse de utilizar static
+ *  cuando corresponda.
  *
-  */
+ */
   System.out.println("/====================================/");
   System.out.println("/= Inicio ejercicio: Clase Producto =/");
   System.out.println("/====================================/");
