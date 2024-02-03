@@ -136,16 +136,23 @@ public class EjerciciosClase {
   float gananciaProducto3 = 0f;
 
   Producto product1 = new Producto("Galletitas",2135,135,40,46000,23);
-  Producto product2 = new Producto("Pañales",335,300,140,1675,5);
+  Producto product2 = new Producto("Pañales",33335,300,140,1675,5);
   Producto product3 = new Producto("Zapatos",535,230,250,4815,9);
 
 
-  if (!(product1.venderProducto(41) )) {
+  if (!(product1.venderProducto(30) )) {
         System.out.println("Venta de " + product1.getNombre() + ": SIN Stock");
       } else {
         System.out.println("Venta de " + product1.getNombre() + " OK");
   }
 
+
+
+      if (!(product2.venderProducto(640) )) {
+        System.out.println("Venta de " + product2.getNombre() + ": SIN Stock");
+      } else {
+        System.out.println("Venta de " + product2.getNombre() + " OK");
+      }
   System.out.println(product1);
   System.out.println(product2);
   System.out.println(product3);
