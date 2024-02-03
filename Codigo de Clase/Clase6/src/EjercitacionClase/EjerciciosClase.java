@@ -136,6 +136,7 @@ public class EjerciciosClase {
   float gananciaProducto2 = 0f;
   float gananciaProducto3 = 0f;
 
+
   Producto product1 = new Producto("Galletitas",2135,135,40,46000,23);
   Producto product2 = new Producto("Pañales",33335,300,140,1675,5);
   Producto product3 = new Producto("Zapatos",535,230,250,4815,9);
