@@ -19,9 +19,9 @@ package EjercitacionClase;
  *  *
  *  *  Instanciar 3 productos y demostrar cual es el mas Rentable, no olvidarse de
  *     utilizar static cuando corresponda.
- *  *
+ *
  *   */
- */
+
 public class Producto {
     String nombre;
     float precioVenta;
@@ -39,4 +39,45 @@ public class Producto {
         this.cantidadVendida = cantidadVendida;
     }
 
+    public float getPrecioVenta() {
+        return precioVenta;
+    }
+
+    public float getCostoCompra() {
+        return costoCompra;
+    }
+
+    public float getTotalVendido() {
+        return totalVendido;
+    }
+
+    public int getCantidadVendida() {
+        return cantidadVendida;
+    }
+
+    public void comprarProducto(int cantidadComprada, float precioVenta, float costoCompra ) {
+        this.precioVenta = precioVenta;
+        this.costoCompra = costoCompra;
+        this.stock = this.stock + cantidadComprada;
+    }
+
+    public void venderProducto(int cantidadVendida ) {
+        this.stock = this.stock - cantidadVendida;
+        this.totalVendido = this.totalVendido + (this.precioVenta * cantidadVendida);
+        this.cantidadVendida = this.cantidadVendida + cantidadVendida;
+    }
+
+    @Override
+    public String toString() {
+        String balance =  (costoCompra > precioVenta) ? " - " : " + ";
+        return "Producto{" +
+                "nombre='" + nombre + '\'' +
+                ", precioVenta=" + precioVenta +
+                ", costoCompra=" + costoCompra +
+                ", stock=" + stock +
+                ", totalVendido=" + totalVendido +
+                ", cantidadVendida=" + cantidadVendida +
+                ", balance=" + balance +
+                '}';
+    }
 }
