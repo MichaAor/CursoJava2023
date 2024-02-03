@@ -131,6 +131,7 @@ public class EjerciciosClase {
   System.out.println("/====================================/");
   System.out.println("/= Inicio ejercicio: Clase Producto =/");
   System.out.println("/====================================/");
+
   float gananciaProducto1 = 0f;
   float gananciaProducto2 = 0f;
   float gananciaProducto3 = 0f;
@@ -146,21 +147,19 @@ public class EjerciciosClase {
         System.out.println("Venta de " + product1.getNombre() + " OK");
   }
 
-
-
-      if (!(product2.venderProducto(640) )) {
+  if (!(product2.venderProducto(640) )) {
         System.out.println("Venta de " + product2.getNombre() + ": SIN Stock");
-      } else {
+     } else {
         System.out.println("Venta de " + product2.getNombre() + " OK");
-      }
+   }
+
   System.out.println(product1);
   System.out.println(product2);
   System.out.println(product3);
+
   gananciaProducto1 =  product1.cantidadVendida * (product1.precioVenta-product1.costoCompra);
   gananciaProducto2 =  product2.cantidadVendida * (product2.precioVenta-product2.costoCompra);
   gananciaProducto3 =  product3.cantidadVendida * (product3.precioVenta-product3.costoCompra);
-
-
 
   if(gananciaProducto1 > gananciaProducto2 && gananciaProducto1 > gananciaProducto3){
     System.out.println("El producto mas rentable fue: " + product1.nombre);
@@ -169,6 +168,7 @@ public class EjerciciosClase {
   } else {
     System.out.println("El producto mas rentable fue: " + product3.nombre);
   }
+
   System.out.println("/=================================/");
   System.out.println("/= Fin ejercicio: Clase Producto =/");
   System.out.println("/=================================/");
