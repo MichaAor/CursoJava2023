@@ -2,7 +2,6 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/Ejercitacion/Para Casa/Clase 5/Clase 5.iml" filepath="$PROJECT_DIR$/Ejercitacion/Para Casa/Clase 5/Clase 5.iml" />
       <module fileurl="file://$PROJECT_DIR$/Ejercitacion/Para Casa/Clase 6/Clase 6/Clase 6.iml" filepath="$PROJECT_DIR$/Ejercitacion/Para Casa/Clase 6/Clase 6/Clase 6.iml" />
       <module fileurl="file://$PROJECT_DIR$/Ejercitacion/Para Casa/Clase1/Clase1.iml" filepath="$PROJECT_DIR$/Ejercitacion/Para Casa/Clase1/Clase1.iml" />
       <module fileurl="file://$PROJECT_DIR$/Codigo de Clase/Clase1/Clase11.iml" filepath="$PROJECT_DIR$/Codigo de Clase/Clase1/Clase11.iml" />
@@ -13,8 +12,9 @@
       <module fileurl="file://$PROJECT_DIR$/Ejercitacion/Para Casa/Clase4/Clase4.iml" filepath="$PROJECT_DIR$/Ejercitacion/Para Casa/Clase4/Clase4.iml" />
       <module fileurl="file://$PROJECT_DIR$/Codigo de Clase/Clase4/Clase41.iml" filepath="$PROJECT_DIR$/Codigo de Clase/Clase4/Clase41.iml" />
       <module fileurl="file://$PROJECT_DIR$/Codigo de Clase/Clase5/Clase5.iml" filepath="$PROJECT_DIR$/Codigo de Clase/Clase5/Clase5.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Ejercitacion/Para Casa/Clase5/Clase51.iml" filepath="$PROJECT_DIR$/Ejercitacion/Para Casa/Clase5/Clase51.iml" />
       <module fileurl="file://$PROJECT_DIR$/Codigo de Clase/Clase6/Clase6.iml" filepath="$PROJECT_DIR$/Codigo de Clase/Clase6/Clase6.iml" />
-      <module fileurl="file://$PROJECT_DIR$/Ejercitacion/Para Casa/Clase6/Clase61.iml" filepath="$PROJECT_DIR$/Ejercitacion/Para Casa/Clase6/Clase61.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Ejercitacion/Para Casa/Clase6/Clase62.iml" filepath="$PROJECT_DIR$/Ejercitacion/Para Casa/Clase6/Clase62.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/CursoJava2023.iml" filepath="$PROJECT_DIR$/.idea/CursoJava2023.iml" />
       <module fileurl="file://$PROJECT_DIR$/Nivelacion/Nivelacion.iml" filepath="$PROJECT_DIR$/Nivelacion/Nivelacion.iml" />
       <module fileurl="file://$PROJECT_DIR$/Ejercitacion/Pre Examen/Pre Examen.iml" filepath="$PROJECT_DIR$/Ejercitacion/Pre Examen/Pre Examen.iml" />
