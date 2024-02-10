@@ -1,7 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="bf0b43a1-e154-4cf4-84ac-f108d47064b0" name="Changes" comment="" />
+    <list default="true" id="bf0b43a1-e154-4cf4-84ac-f108d47064b0" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/src/BancoC5.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/EmpleadoC5.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/RectanguloC5.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/VentaC5.java" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -10,9 +15,9 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../../.." />
   </component>
-  <component name="ProjectColorInfo"><![CDATA[{
-  "associatedIndex": 0
-}]]></component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 0
+}</component>
   <component name="ProjectId" id="2bvDqJIq5sS9rFOiJoiwaHQuIQd" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
@@ -22,8 +27,13 @@
   "keyToString": {
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
-    "git-widget-placeholder": "main",
+    "git-widget-placeholder": "Vero-Branch",
     "kotlin-language-version-configured": "true",
+    "last_opened_file_path": "C:/Users/LENOVO/Documents/GitHub/CursoJava2023/Ejercitacion/Para Casa/Clase5",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
     "nodejs_package_manager_path": "npm",
     "vue.rearranger.settings.migration": "true"
   }
@@ -31,7 +41,7 @@
   <component name="SharedIndexes">
     <attachedChunks>
       <set>
-        <option value="jdk-17.0.9-corretto-17.0.9-3183f394aec4-8f899f12" />
+        <option value="jdk-17.0.9-corretto-17.0.9-f644763e9732-ebaef533" />
       </set>
     </attachedChunks>
   </component>
@@ -44,6 +54,7 @@
       <option name="presentableId" value="Default" />
       <updated>1707086850014</updated>
       <workItem from="1707086851085" duration="22000" />
+      <workItem from="1707606635926" duration="434000" />
     </task>
     <servers />
   </component>
