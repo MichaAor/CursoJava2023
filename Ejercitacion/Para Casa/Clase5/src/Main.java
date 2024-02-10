@@ -78,3 +78,26 @@ public class Main {
 //---------------------------------//
     }
 }
+/*
+    ╔═════════════════╗
+    ║  Observaciones  ║
+    ╚═════════════════╝
+* Ejercicio 4
+    + Excelente organizacion y presentacion.
+    + Muy buena reutilizacion de codigo.
+    + Se cumple con lo pedido de manera sobresaliente.
+
+    ? El uso de funciones matematicas esta perfecto, aunque a futuro no viene demas detallar mejor.
+
+    - El constructor contempla el error, pero no hace nada para impedirlo.
+    - El metodo divide contempla el error, aunque tampoco hace nada con esa info.
+
+* Ejercicio 5
+    + Excelente organizacion y presentacion.
+    + Se cumple con lo pedido de manera sobresaliente.
+
+    ? El formato del toString puede mejorarse.
+    ? Es necesaria la invocacion de la clase para aumentar las variables static dentro de su misma clase?
+    ? Para saltos de linea, usar \n, asi no declaramos un sout demas.
+    ? Se puede optimizar aun mas?
+*/
