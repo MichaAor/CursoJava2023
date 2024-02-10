@@ -35,7 +35,7 @@ public class MainEjemploPOO {
         persona.saludar();
 
 //? Mostramos cada uno de los atributos de la instancia 'persona' usando GETTERS
-        System.out.println("\033[32m" + "\nAtrtibutos de la iunstancia 'persona' recuperados con GETTERS" + "\u001B[0m");
+        System.out.println("\033[32m" + "\nAtrtibutos de la instancia 'persona' recuperados con GETTERS" + "\u001B[0m");
         System.out.println("\033[33m" + "Nombre: " + persona.getNombre() + "\u001B[0m");
         System.out.println("\033[33m" + "Apellido: " + persona.getApellido() + "\u001B[0m");
         System.out.println("\033[33m" + "Edad: " + persona.getEdad() + "\u001B[0m");
