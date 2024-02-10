@@ -2,7 +2,8 @@ package CodigoDeClase.Array.OperacionesAvanzadas;
 
 import CodigoDeClase.ArrayUtil;
 
-public class OrdenacionBurbuja {
+public class
+OrdenacionBurbuja {
     public static void main(String[] args) {
         System.out.println("\033[36m" + "╔═══════════════════════════════════════════╗" + "\u001B[0m");
         System.out.println("\033[36m" + "║  EJEMPLO ALGORITMO DE ORDENACION BURBUJA  ║" + "\u001B[0m");
