@@ -14,11 +14,13 @@ public class OperacionesBasicas {
 //? Recorrido con Bucles: Iterar sobre todos los elementos del array.
         for (int i = 0; i < numeros.length; i++) {
             //* Operaciones con elementos (numeros[i])
+            System.out.println(i);
         }
 
 //? Recorrido con ForEach: Iterar sobre todos los elementos del array sin marcar un limite explicito.
         for (int num : numeros) {
             //* Operaciones con elementos (num cambiara con cada iteración,debido al avance)
+            System.out.println(num);
         }
 
 //? Modificación de Elementos: Cambiar el valor de uno o varios elementos en el array.

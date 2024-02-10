@@ -8,7 +8,7 @@ public class OrdenacionInsercion{
         System.out.println("\033[36m" + "║  EJEMPLO ALGORITMO DE ORDENACION POR INSERCION  ║" + "\u001B[0m");
         System.out.println("\033[36m" + "╚=================================================╝" + "\u001B[0m");
         //? Array de ejemplo
-        int[] array = {64, 25, 12, 22, 11};
+        int[] array = ArrayUtil.inicializarArray(5);
         
         //? Imprimir el array original
         System.out.print("\033[36m" + "Array original: " + "\u001B[0m");
