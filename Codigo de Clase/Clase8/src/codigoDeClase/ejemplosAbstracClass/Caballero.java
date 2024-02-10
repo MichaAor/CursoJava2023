@@ -1,6 +1,6 @@
 package codigoDeClase.ejemplosAbstracClass;
 
-//! Heredamos de Personaje, aprovechandonos de sus particularidades.
+//! Heredamos de Personaje, aprovechándonos de sus particularidades.
 //! Declaramos las propias a la clase 'Caballero'.
 public class Caballero extends Personaje{
 //? Ademas de los atributos heredados, declaramos 'fuerza' como uno propio de Caballero.
@@ -16,7 +16,7 @@ public class Caballero extends Personaje{
         this.fuerza = fuerza;
     }
 
-//? Sobre
+//? Implementamos o desarrollamos el método abstracto.
     @Override
     public void atacar(Personaje personaje) {
         personaje.setVida(personaje.getVida() - this.calcularDanioTotal());

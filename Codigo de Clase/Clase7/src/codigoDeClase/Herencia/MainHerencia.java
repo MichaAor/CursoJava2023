@@ -3,7 +3,8 @@ package codigoDeClase.Herencia;
  ! HERENCIA
  ? Explicación:
  *  Se utiliza la herencia para modelar una relación "es un" entre la clase base Animal y
- *      la clase derivada Perro. La clase Perro hereda el método comer de la clase Animal y agrega su propio método ladrar.
+ *      la clase derivada Perro. La clase Perro hereda el método comer de la clase Animal y 
+ *      agrega su propio método ladrar.
  ? Ventajas:
  *  -Fomenta la reutilización del código: Al heredar comportamiento común de la clase base,
  *      se evita la duplicación de código.
@@ -19,14 +20,13 @@ package codigoDeClase.Herencia;
  */
 public class MainHerencia {
     public static void main(String[] args) {
-//? Declaracion e Instanciacion o inicializacion;
+//? Declaración e Instanciacion o inicializacion;
        Perro perro = new Perro();
 
-//? Ejecutamos el metodo heredado de la superclase 'Animal'.
+//? Ejecutamos el método heredado de la superclase 'Animal'.
        perro.comer();
 
-//? Ejecutamos el metodo particular de la clase 'Perro'.
+//? Ejecutamos el método particular de la clase 'Perro'.
        perro.ladrar();
-
     }
 }
