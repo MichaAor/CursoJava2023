@@ -2,32 +2,56 @@ package EjercitacionClase;
 
 public class EjerciciosClase {
     public static void main(String[] args) {
-        /*
-         *                                        //-- EJERCITACION DE CLASE --//
-         * REALIZAR CADA EJERCICIO CON SU CORRESPONDIENTE DOCUMENTACION Y DEMOSTRAR LOS RESULTADOS
-         *  DE MANERA PROLIJA EN LA CONSOLA
-         *
-         *1) Modele el objeto Rectángulo con sus propiedades, ancho y alto. Ambas con valor
-         *    1,0 por defecto. Este objeto debe exponer los getters y setters necesarios. También
-         *    debe contar con un método para calcular el área y perímetro del mismo. Ejecute las
-         *    siguientes pruebas:
-         *    a. Inicializar un objeto Rectángulo estableciendo ancho y alto.
-         *    b. Imprimir por pantalla el alto y ancho.
-         *    c. Imprimir por pantalla el área y perímetro.
-         *    d. Modificar el alto y el ancho de la instancia.
-         *    e. Imprimir por pantalla nuevamente el cálculo del área y perímetro.
-         *    f. Inicializar un objeto Rectángulo con los valores por defecto y verificar.
-         *2) Modele el objeto Empleado que posee las siguientes características, dni, nombre,
-         *    apellido y salario. El mismo debe contar con la posibilidad de calcular el salario
-         *    anual. A su vez se requiere otro método que permita aumentar el salario
-         *    dependiendo del porcentaje que se le pase por parámetro. Considere crear un
-         *    método que facilite imprimir por pantalla las características del objeto de la
-         *    siguiente forma:
-         *        Empleado[dni=?, nombre=?, apellido=?, salario=?]
-         *        a. Inicialice un empleado Carlos Gutiérrez, con dni 23456345 y salario inicial de 25000.
-         *        b. Inicialice un empleado Ana Sánchez, con dni 34234123 y salario inicial de 27500.
-         *        c. Imprima ambos objetos por pantalla
-         *        d. Aumente el salario del empleado Carlos en un 15% e imprima en pantalla el salario anual del mismo.
-         */
+ /*
+!                                        //-- EJERCITACION DE CLASE --//
+!  REALIZAR CADA EJERCICIO CON SU CORRESPONDIENTE DOCUMENTACIÓN Y DEMOSTRAR LOS RESULTADOS
+!   DE MANERA PROLIJA EN LA CONSOLA
+?  1)  Sistema de Recursos Humanos en una Empresa Tecnológica
+?  Diseña un sistema avanzado de recursos humanos para una empresa tecnológica que utilice clases 
+?   y métodos abstractos, incorporando conceptos adicionales.
+? a) Crea una clase abstracta llamada Empleado con atributos como nombre, salarioBase,
+?   nivel (por ejemplo, junior, intermedio, senior), y evaluacionDesempeño.
+? b) Define un método abstracto calcularSalario() en la clase Empleado que tenga en cuenta 
+?   la evaluación de desempeño.
+? c) Implementa subclases concretas como Desarrollador, Diseñador, y Gerente que hereden de la clase Empleado.
+? d) Agrega un método realizarEvaluacion() en la clase Empleado para simular el proceso de evaluación de desempeño.
+? e) En el programa principal, crea instancias de diferentes empleados, realiza evaluaciones de desempeño 
+?   y muestra sus salarios calculados.
+
+? 2)  Galería de Arte con Subastas y Colecciones
+? Amplía el sistema de gestión de figuras artísticas en una galería para incluir subastas y colecciones.
+? a) Modifica la clase ObraDeArte para incluir atributos como estilo y periodoArtístico.
+? b) Define un método abstracto adicional exponer() en la clase ObraDeArte para simular 
+?   la exposición de la obra en una galería.
+? c) Crea una clase abstracta llamada Subasta que tenga atributos como obraEnSubasta, 
+?   pujaActual, y pujadorActual.
+? d) Define métodos abstractos como iniciarSubasta() y cerrarSubasta() en la clase Subasta.
+? e) Implementa subclases concretas como SubastaPresencial y SubastaVirtual que hereden de la clase Subasta.
+? f) En el programa principal, crea instancias de obras de arte, organiza subastas y muestra información 
+?   sobre las colecciones y subastas.
+
+? 3)  Sistema de Pago con Interfaces
+? Diseña un sistema de pago que utilice interfaces para modelar diferentes métodos y tipos de variables. Este sistema simula transacciones de compra en una tienda.
+? a) Crea una interfaz llamada MetodoPago con los siguientes elementos:
+*   Método abstracto realizarPago(double monto) para procesar el pago.
+*   Variable estática TARIFA_TRANSACCION que represente una tarifa fija por transacción.
+*   Método default mostrarDetalles() que imprima detalles generales del método de pago.
+? b) Implementa tres clases que representen métodos de pago concretos:
+*   TarjetaCredito que implemente MetodoPago. Deberá tener una variable de instancia limiteCredito y un método para verificar si hay crédito disponible.
+*   TransferenciaBancaria que implemente MetodoPago. Deberá tener una variable de instancia numeroCuenta y un método para realizar la transferencia.
+*   PagoEfectivo que implemente MetodoPago. Deberá tener una variable de instancia montoRecibido y un método para manejar el efectivo recibido.
+? c) Crea una interfaz adicional llamada DescuentoCliente con los siguientes elementos:
+*   Método abstracto aplicarDescuento(double monto) para aplicar descuentos específicos de cliente.
+*   Variable estática DESCUENTO_GENERAL que represente un descuento fijo para todos los clientes.
+*   Método default mostrarDetalles() que imprima detalles generales del descuento.
+? d) Implementa una clase Cliente que implemente DescuentoCliente. 
+*   Deberá tener una variable de instancia adicional, como tipoCliente, que represente el nivel 
+*       o tipo de cliente (por ejemplo, "Regular", "Premium", etc.).
+*   Implementa el método abstracto aplicarDescuento(double monto) para proporcionar 
+*       descuentos específicos según el tipo de cliente.
+
+!En el programa principal, crea instancias de diferentes métodos de pago y clientes. 
+!   Realiza transacciones de compra, aplicando descuentos y mostrando los resultados.
+*/
     }
 }
