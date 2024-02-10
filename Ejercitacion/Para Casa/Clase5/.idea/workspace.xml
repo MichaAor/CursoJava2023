@@ -1,7 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="bf0b43a1-e154-4cf4-84ac-f108d47064b0" name="Changes" comment="" />
+    <list default="true" id="bf0b43a1-e154-4cf4-84ac-f108d47064b0" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/../../../Codigo de Clase/Clase9/src/Array/ArrayUtil.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Codigo de Clase/Clase9/src/Array/DeclaracionEInicializacion.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Codigo de Clase/Clase9/src/Array/OperacionesAvanzadas/OrdenacionBurbuja.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Codigo de Clase/Clase9/src/Array/OperacionesAvanzadas/OrdenacionCombinacion.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Codigo de Clase/Clase9/src/Array/OperacionesAvanzadas/OrdenacionInsercion.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Codigo de Clase/Clase9/src/Array/OperacionesAvanzadas/OrdenacionRapida.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Codigo de Clase/Clase9/src/Array/OperacionesAvanzadas/OrdenacionSeleccion.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Codigo de Clase/Clase9/src/Array/OperacionesBasicas.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Codigo de Clase/Clase9/src/Main.java" beforeDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -10,9 +20,9 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../../.." />
   </component>
-  <component name="ProjectColorInfo"><![CDATA[{
-  "associatedIndex": 0
-}]]></component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 0
+}</component>
   <component name="ProjectId" id="2bvDqJIq5sS9rFOiJoiwaHQuIQd" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
@@ -24,6 +34,7 @@
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "git-widget-placeholder": "main",
     "kotlin-language-version-configured": "true",
+    "last_opened_file_path": "C:/Users/misae/Desktop/Workspace/WorkSpace Java/CursoJava2023/Codigo de Clase/Clase9",
     "nodejs_package_manager_path": "npm",
     "vue.rearranger.settings.migration": "true"
   }
@@ -44,6 +55,7 @@
       <option name="presentableId" value="Default" />
       <updated>1707086850014</updated>
       <workItem from="1707086851085" duration="22000" />
+      <workItem from="1707596960675" duration="18000" />
     </task>
     <servers />
   </component>

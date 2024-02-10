@@ -1,4 +1,4 @@
-package Array;
+package CodigoDeClase.Array;
 
 public class OperacionesBasicas {
     public static void main(String[] args) {

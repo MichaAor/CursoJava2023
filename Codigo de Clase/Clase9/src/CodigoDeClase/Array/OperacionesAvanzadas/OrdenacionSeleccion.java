@@ -1,12 +1,12 @@
-package Array.OperacionesAvanzadas;
+package CodigoDeClase.Array.OperacionesAvanzadas;
 
-import Array.ArrayUtil;
+import CodigoDeClase.ArrayUtil;
 
 public class OrdenacionSeleccion {
     public static void main(String[] args) {
-        System.out.println("\033[36m" + "╔=================================================╗" + "\u001B[0m");
+        System.out.println("\033[36m" + "╔═════════════════════════════════════════════════╗" + "\u001B[0m");
         System.out.println("\033[36m" + "║  EJEMPLO ALGORITMO DE ORDENACION POR SELECCION  ║" + "\u001B[0m");
-        System.out.println("\033[36m" + "╚=================================================╝" + "\u001B[0m");
+        System.out.println("\033[36m" + "╚═════════════════════════════════════════════════╝" + "\u001B[0m");
         //? Array de ejemplo
         int[] array = ArrayUtil.inicializarArray(5);
         
