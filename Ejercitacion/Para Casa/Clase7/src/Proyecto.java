@@ -1,37 +1,14 @@
 import java.util.Date;
+import java.util.List;
 
 public class Proyecto {
     String nombre;
     String descripcion;
+    float presupuestoAsignado;
+    float presupuestoConsumido;
     Date fechaInicio;
-
-    public Proyecto(String nombre, String descripcion, Date fechaInicio) {
-        this.nombre = nombre;
-        this.descripcion = descripcion;
-        this.fechaInicio = fechaInicio;
-    }
-
-    public String getNombre() {
-        return nombre;
-    }
-
-    public void setNombre(String nombre) {
-        this.nombre = nombre;
-    }
-
-    public String getDescripcion() {
-        return descripcion;
-    }
-
-    public void setDescripcion(String descripcion) {
-        this.descripcion = descripcion;
-    }
-
-    public Date getFechaInicio() {
-        return fechaInicio;
-    }
-
-    public void setFechaInicio(Date fechaInicio) {
-        this.fechaInicio = fechaInicio;
-    }
+    Date fechaFin;
+    Colaborador pmAsignadoProyecto;
+    String estadoProyecto; //sin desvio, desvio tiempo y desvio presupeusto, desvio tiempo, desvio presupuesto.
+    List<Tarea> tareasProyecto;
 }
