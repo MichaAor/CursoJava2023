@@ -1,6 +1,6 @@
-public class vehiculoCarga extends Vehiculo {
+public class VehiculoCarga extends Vehiculo {
     Remolque remolque;
-    public vehiculoCarga(String matricula, float velocidad, Remolque remolque) {
+    public VehiculoCarga(String matricula, float velocidad) {
         super(matricula, velocidad);
         this.remolque = null;
     }
@@ -20,8 +20,11 @@ public class vehiculoCarga extends Vehiculo {
 
     @Override
     public String toString() {
-        return "vehiculoCarga{" +
-                "remolque=" + remolque +
+        return "VehiculoCarga{" +
+                "matricula='" + matricula + '\'' +
+                ", velocidad=" + velocidad + '\'' +
+                ", remolque=" + remolque +
                 '}';
     }
-}
+
+    }

@@ -15,8 +15,8 @@ public class Remolque extends Vehiculo{
     @Override
     public String toString() {
         return "Remolque{" +
-                "tipoRemolque=" + tipoRemolque +
-                "matricula='" + matricula + '\'' +
+                "tipoRemolque='" + tipoRemolque + '\'' +
+                ", matricula='" + matricula + '\'' +
                 ", velocidad=" + velocidad +
                 '}';
     }
