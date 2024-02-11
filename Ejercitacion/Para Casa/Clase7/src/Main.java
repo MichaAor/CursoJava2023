@@ -5,29 +5,13 @@ public class Main {
     public static void main(String[] args) {
 
         simuladorVehiculos();
+        gestionDeProyectos();
     }
 
-    /**
-     * 6)	Construya un simulador de Vehículos, con las siguientes características, tomando en cuenta que existen
-     * dos tipos de Vehículo: particular y carga.
-     * a)	Sus características comunes son la matrícula y la velocidad. En el momento de crearlos, la matrícula
-     * se recibe por parámetro y la velocidad se inicializa a 0. El método toString() de los vehículos devuelve
-     * información acerca de la matrícula y la velocidad. Además se pueden acelerar, pasando por parámetro la
-     * cantidad en km/h que se tiene que acelerar.
-     * b)	Los vehículos particulares tienen además un atributo para el número de puertas, que se recibe también
-     * por parámetro en el momento de crearlo., tiene además un método que devuelve el número de puertas.
-     * c)	Los vehículos de carga tienen un atributo de tipo Remolque que inicializa a null (para indicar que
-     * no tiene un remolque). Además, tiene un método ponRemolque(), que recibe el Remolque por parámetro,
-     * y otro quitaRemolque(). Cuando se muestre la información de un camión que lleve remolque, además de
-     * la matrícula y velocidad, debe aparecer la información del remolque.
-     * d)	En esta clase, hay que sobreescribir el método acelerar de manera que si el vehículo de carga tiene
-     * remolque y la velocidad más la aceleración superan los 100 km/h, se lance un mensaje.
-     * e)	Hay que implementar la clase Remolque. Esta clase tiene un atributo de tipo entero que es el peso y
-     * cuyo valor se le da en el momento de crear el objeto. Debe tener un método toString() que devuelva la
-     * información del remolque.
-     */
-
     public static void simuladorVehiculos() {
+        System.out.println("//-----------------------------------//");
+        System.out.println("//---Simulador de vehiculos INICIO---//");
+        System.out.println("//-----------------------------------//");
 
         //Creo vehiculo de carga
         VehiculoCarga miVehiculoCarga = new VehiculoCarga("OGG234", 10);
@@ -45,5 +29,18 @@ public class Main {
 
         // Acelero vehiculo de carga con remolque
         miVehiculoCarga.acerlerar(101);
+        System.out.println("//--------------------------------//");
+        System.out.println("//---Simulador de vehiculos FIN---//");
+        System.out.println("//--------------------------------//");
+
+    }
+    public static void gestionDeProyectos() {
+        System.out.println("//----------------------------------------//");
+        System.out.println("//-Sistema de Gesiton de proyectos INICIO-//");
+        System.out.println("//----------------------------------------//");
+
+        System.out.println("//-----------------------------------------//");
+        System.out.println("//---Sistema de Gesiton de proyectos FIN---//");
+        System.out.println("//-----------------------------------------//");
     }
 }
