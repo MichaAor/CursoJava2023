@@ -8,7 +8,7 @@ public class Proyecto {
     float presupuestoConsumido;
     Date fechaInicio;
     Date fechaFin;
-    Colaborador pmAsignadoProyecto;
-    String estadoProyecto; //sin desvio, desvio tiempo y desvio presupeusto, desvio tiempo, desvio presupuesto.
-    List<Tarea> tareasProyecto;
+    Colaborador pmAsignado;
+    String estadoProyecto; //sin desvio/desvio tiempo y desvio presupeusto/desvio tiempo/desvio presupuesto.
+    List<Colaborador> colaboradoresAsignados;
 }
