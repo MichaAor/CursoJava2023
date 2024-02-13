@@ -44,3 +44,28 @@ public class Main {
         System.out.println("//-----------------------------------------//");
     }
 }
+/*
+    ╔═════════════════╗
+    ║  Observaciones  ║
+    ╚═════════════════╝
+* Ejercicio 6
+    + Buena organizacion y presentacion, se puede mejorar en las clases representantes.
+
+    ? El formato del toString puede mejorarse.
+    ? Cuidado con el metodo acelerar del VehiculoCarga, ya que es poco explicito y declarativo.
+
+    ! Cuidado con la interpretacion de las caracteristicas que se piden.
+    ! Se debe ser explicito con la encapsulacion de los miembros.
+    ! Remolque como tal no es ni posee las caracteristicas de un Vehiculo, cuidado con la definicion de atributos.
+    ! Remolque no cumple con lo pedido.
+
+* Ejercicio 7
+    + Buena organizacion y presentacion, se puede mejorar en las clases representantes.
+
+    ? Se nota la falta de metodos para la administracion del sistema.
+    ? Me gusta la cantidad de atributos representativos que tiene el proyecto,aunque podrian derivarse.
+    ? Se puede optimizar aun mas?
+
+    ! Es extranio que PM este repetido en 2 clases. Habra una buena razon?
+
+*/

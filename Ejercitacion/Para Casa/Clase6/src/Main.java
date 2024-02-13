@@ -70,3 +70,20 @@ public class Main {
         System.out.println("Total de empleados: " +Empresa.totalEmpleados);
     }
 }
+/*
+    ╔═════════════════╗
+    ║  Observaciones  ║
+    ╚═════════════════╝
+* Ejercicio 5
+    + Buena organizacion y presentacion, se puede mejorar en las clases representantes.
+
+    ? El formato del toString puede mejorarse.
+    ? Cuidado con el disenio de la aplicacion, pueden encontrarse puntos ciegos donde no hay posible escalabilidad.
+    ? Si se desea hacer un filtrado, debe hacerse un metodo ajeno a getters y setters.
+    ? Se puede optimizar aun mas?
+
+    ! Si la clase 'Empleado' maneja un id static, este se comparte entre todas las intancias.
+    ! Cuidado con la manipulacion del flujo de informacion. Seria mejor cargar departamento con empleados y luego a la lista.
+    ! El uso de algunos constructores no esta bien implementado, ademas no puede tener una logica tan profunda(por ejemplo for).
+    ! El uso de algunos setter y getter rompen un disenio coherente.
+*/
