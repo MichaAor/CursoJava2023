@@ -1,6 +1,6 @@
 
 public class Empleado {
-    private static int id;
+    private int id;
     private String nombre;
     private String apellido;
     private String dni;

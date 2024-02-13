@@ -61,7 +61,11 @@ public class Main {
 
 
         //Creo una empresa con su correspondiente lista de departamentos.
-        Empresa miEmpresa = new Empresa(1, "EDESA", "305492101541", listaDepartamentos);
+        Empresa miEmpresa = new Empresa(1, "EDESA", "305492101541");
+
+        //Asigno lista de departamentos a la empresa.
+        miEmpresa.setDepartamentos(listaDepartamentos);
+
 
         //Informo datos de la empresa.
         System.out.println("Nombre Empresa: " + miEmpresa.getNombre());

@@ -8,17 +8,15 @@ public class Empresa {
     private List<Departamento> departamentos;
     static int totalDepartamentos = 0;
     static int totalEmpleados = 0;
-    public Empresa(int id, String nombre, String cuit, List<Departamento> departamentos) {
+    public Empresa(int id, String nombre, String cuit) {
       this.id = id;
       this.nombre = nombre;
       this.cuit = cuit;
       this.departamentos = departamentos;
-      Empresa.totalDepartamentos = departamentos.size();
-      for (int i = 0; i < departamentos.size(); i++) {
-          Empresa.totalEmpleados += departamentos.get(i).getTotalEmpleados();
+
       }
 
-    }
+
 
     public int getId() {
         return id;
@@ -48,9 +46,12 @@ public class Empresa {
         return departamentos;
     }
 
-    public void setDepartamentos(List<Departamento> departamentos,int totalDepartamentos) {
+    public void setDepartamentos(List<Departamento> departamentos) {
         this.departamentos = departamentos;
-        Empresa.totalDepartamentos = totalDepartamentos;
+        Empresa.totalDepartamentos = departamentos.size();
+        for (int i = 0; i < departamentos.size(); i++) {
+            Empresa.totalEmpleados += departamentos.get(i).getTotalEmpleados();
+        }
     }
 
     public static int getTotalDepartamentos() {
