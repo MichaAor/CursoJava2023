@@ -12,10 +12,11 @@ public class VehiculoCarga extends Vehiculo {
     }
     @Override
     public void acerlerar(float velocidad){
-        if ((this.velocidad + velocidad) > 100 ){
-            System.out.println("mas de 100 kms");
+        if ((this.velocidad + velocidad) > 100 && !this.remolque.esTipoRemoqueNulo() ) {
+            System.out.println("El ser un vehiculo de carga con remolque, este no puede superar mas de 100 kms/h");
+        } else {
+            this.velocidad += velocidad;
         }
-        this.velocidad += velocidad;
     }
 
     @Override

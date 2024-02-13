@@ -17,7 +17,8 @@ public class Main {
         VehiculoCarga miVehiculoCarga = new VehiculoCarga("OGG234", 10);
 
         //Creo vehiculo de remolque
-        Remolque miRemolque = new Remolque("ABC123", 50, 10000);
+        Remolque miRemolque = new Remolque("ABC123", 50);
+        miRemolque.setTipoRemolque(1);
         miVehiculoCarga.ponRemolque(miRemolque);
 
         //Creo vehiculo particular
@@ -28,7 +29,15 @@ public class Main {
         System.out.println("Mi vehiculo carga: " + miVehiculoCarga);
 
         // Acelero vehiculo de carga con remolque
-        miVehiculoCarga.acerlerar(101);
+        System.out.println("Acelero el vehiculo de carga en 75 unidades");
+        miVehiculoCarga.acerlerar(75);
+        System.out.println("Mi vehiculo carga: " + miVehiculoCarga);
+
+        System.out.println("Acelero el vehiculo de carga en 25 unidades");
+        miVehiculoCarga.acerlerar(25);
+        System.out.println("Mi vehiculo carga: " + miVehiculoCarga);
+
+
         System.out.println("//--------------------------------//");
         System.out.println("//---Simulador de vehiculos FIN---//");
         System.out.println("//--------------------------------//");
