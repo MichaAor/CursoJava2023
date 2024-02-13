@@ -6,10 +6,10 @@ public class Fraccion {
     public Fraccion(int numerador, int denominador) {
         if (denominador == 0) {
             System.out.println("El denominador no puede ser cero.");
+        } else {
+            this.numerador = numerador;
+            this.denominador = denominador;
         }
-
-        this.numerador = numerador;
-        this.denominador = denominador;
     }
 
     // Método para invertir la fracción
@@ -39,10 +39,11 @@ public class Fraccion {
     public Fraccion divide(Fraccion otraFraccion) {
         if (otraFraccion.numerador == 0) {
             System.out.println("El numerador no puede ser cero.");
+            return null;
+        } else {
+            Fraccion inversa = new Fraccion(otraFraccion.denominador, otraFraccion.numerador);
+            return this.multiplica(inversa);
         }
-
-        Fraccion inversa = new Fraccion(otraFraccion.denominador, otraFraccion.numerador);
-        return this.multiplica(inversa);
     }
 
     // Método para calcular el máximo común divisor (MCD) euclides

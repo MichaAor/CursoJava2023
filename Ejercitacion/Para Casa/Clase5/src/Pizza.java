@@ -17,7 +17,7 @@ public class Pizza {
         this.tamano = tamano;
         this.tipo = tipo;
         this.estado = "Pedida";
-        Pizza.totalPizzasPedidas += 1;
+        totalPizzasPedidas += 1;
     }
 
 
@@ -55,7 +55,7 @@ public class Pizza {
     }
 
     public void ServirPizza() {
-        Pizza.totalPizzasServidas += 1;
+        totalPizzasServidas += 1;
         this.estado = "Servida";
     }
 
