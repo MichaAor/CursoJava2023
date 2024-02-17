@@ -6,7 +6,7 @@ public class Departamento {
     private int id;
     private String nombre;
     private List<Empleado> empleados;
-    int totalEmpleados;
+    private int totalEmpleados;
 
     public Departamento (int id, String nombre) {
         this.id = id;
@@ -24,11 +24,11 @@ public class Departamento {
     public void setNombre(String nombre) {
         this.nombre = nombre;
     }
-    public void setEmpleados(List<Empleado> empleados,int cantidadEmpleados) {
+    public void setEmpleados(List<Empleado> empleados) {
         this.empleados = empleados;
-        this.setTotalEmpleados(cantidadEmpleados);
+        this.totalEmpleados = empleados.size();
     }
-    public List<Empleado> getEmpleados(int nroEmpleado) {
+    public List<Empleado> getEmpleados() {
         return(this.empleados);
     }
     public int getTotalEmpleados() {

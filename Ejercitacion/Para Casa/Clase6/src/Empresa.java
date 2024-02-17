@@ -6,8 +6,8 @@ public class Empresa {
     private String nombre;
     private String cuit;
     private List<Departamento> departamentos;
-    static int totalDepartamentos = 0;
-    static int totalEmpleados = 0;
+    private int totalDepartamentos = 0;
+    private int totalEmpleados = 0;
     public Empresa(int id, String nombre, String cuit) {
       this.id = id;
       this.nombre = nombre;
@@ -48,18 +48,22 @@ public class Empresa {
 
     public void setDepartamentos(List<Departamento> departamentos) {
         this.departamentos = departamentos;
-        Empresa.totalDepartamentos = departamentos.size();
+        this.totalDepartamentos = departamentos.size();
         for (int i = 0; i < departamentos.size(); i++) {
-            Empresa.totalEmpleados += departamentos.get(i).getTotalEmpleados();
+            totalEmpleados += departamentos.get(i).getTotalEmpleados();
         }
     }
 
-    public static int getTotalDepartamentos() {
-        return Empresa.totalDepartamentos;
+    public int getTotalDepartamentos() {
+        return this.totalDepartamentos;
     }
 
-    public static void setTotalDepartamentos(int totalDepartamentos) {
-        Empresa.totalDepartamentos = totalDepartamentos;
+    public int getTotalEmpleados() {
+        return this.totalEmpleados;
+    }
+
+    public void setTotalDepartamentos(int totalDepartamentos) {
+        this.totalDepartamentos = totalDepartamentos;
     }
 
     @Override

@@ -54,10 +54,10 @@ public class Main {
         listaDepartamentos.add(departamento2);
 
         //Asigno empleados al departamento1 los empleados de SISTEMAS.
-        departamento1.setEmpleados(listaEmpleados1,2);
+        departamento1.setEmpleados(listaEmpleados1);
 
         //Asigno empleados al departamento2 los empleados de CONTABILIDAD.
-        departamento2.setEmpleados(listaEmpleados2,2);
+        departamento2.setEmpleados(listaEmpleados2);
 
 
         //Creo una empresa con su correspondiente lista de departamentos.
@@ -70,8 +70,8 @@ public class Main {
         //Informo datos de la empresa.
         System.out.println("Nombre Empresa: " + miEmpresa.getNombre());
         System.out.println("Lista Departamentos y empleados: " + miEmpresa.getDepartamentos());
-        System.out.println("Total de departamentos: " + Empresa.totalDepartamentos);
-        System.out.println("Total de empleados: " +Empresa.totalEmpleados);
+        System.out.println("Total de departamentos: " + miEmpresa.getTotalDepartamentos());
+        System.out.println("Total de empleados: " + miEmpresa.getTotalEmpleados());
     }
 }
 /*
