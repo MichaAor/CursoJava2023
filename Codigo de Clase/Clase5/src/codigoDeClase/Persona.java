@@ -50,4 +50,11 @@ public class Persona {
         System.out.println("Hola, soy " + this.nombre + " " + this.apellido
                             + " y tengo " + this.edad + " años");
     }
+
+    @Override
+    public String toString() {
+        return this.getClass().getSimpleName() +
+                "nombre='" + this.nombre + '\'' +
+                ", edad=" + this.edad;
+    }
 }

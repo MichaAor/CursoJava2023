@@ -3,7 +3,6 @@ package codigoDeClase.ejemploInterface;
 // *Simulación de evento.
 public class MainInterface {
     public static void main(String[] args) {
-        System.out.println("Hello world!");
 // *Una persona elige un auto
         FabricanteDeVehiculos fabricanteDeAutos = new FabricaDeAutos();
         String auto = fabricanteDeAutos.fabricar();
