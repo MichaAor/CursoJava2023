@@ -5,7 +5,7 @@ public class Fraccion {
     // Constructor
     public Fraccion(int numerador, int denominador) {
         if (denominador == 0) {
-            System.out.println("El denominador no puede ser cero.");
+            throw new IllegalArgumentException("El denominador no puede ser cero.");
         } else {
             this.numerador = numerador;
             this.denominador = denominador;
@@ -38,8 +38,7 @@ public class Fraccion {
     // Método para dividir por otra fracción
     public Fraccion divide(Fraccion otraFraccion) {
         if (otraFraccion.numerador == 0) {
-            System.out.println("El numerador no puede ser cero.");
-            return null;
+            throw new IllegalArgumentException("El denominador no puede ser cero.");
         } else {
             Fraccion inversa = new Fraccion(otraFraccion.denominador, otraFraccion.numerador);
             return this.multiplica(inversa);

@@ -17,10 +17,8 @@ public class Pizza {
         this.tamano = tamano;
         this.tipo = tipo;
         this.estado = "Pedida";
-        totalPizzasPedidas += 1;
+        totalPizzasPedidas ++ ;
     }
-
-
 
     public String getTamano() {
         return tamano;
@@ -47,15 +45,15 @@ public class Pizza {
     }
 
     public static int getTotalPizzasPedidas() {
-        return Pizza.totalPizzasPedidas;
+        return totalPizzasPedidas;
     }
 
     public static int getTotalPizzasServidas() {
-        return Pizza.totalPizzasServidas;
+        return totalPizzasServidas;
     }
 
     public void ServirPizza() {
-        totalPizzasServidas += 1;
+        totalPizzasServidas ++;
         this.estado = "Servida";
     }
 
