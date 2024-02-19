@@ -66,10 +66,9 @@ public class Main {
         //Asigno lista de departamentos a la empresa.
         miEmpresa.setDepartamentos(listaDepartamentos);
 
-
         //Informo datos de la empresa.
         System.out.println("Nombre Empresa: " + miEmpresa.getNombre());
-        System.out.println("Lista Departamentos y empleados: " + miEmpresa.getDepartamentos());
+        System.out.println("Lista Departamentos y Empleados: " + miEmpresa.getDepartamentos());
         System.out.println("Total de departamentos: " + miEmpresa.getTotalDepartamentos());
         System.out.println("Total de empleados: " + miEmpresa.getTotalEmpleados());
     }

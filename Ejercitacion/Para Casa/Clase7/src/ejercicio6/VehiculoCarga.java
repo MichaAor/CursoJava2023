@@ -1,3 +1,5 @@
+package ejercicio6;
+
 public class VehiculoCarga extends Vehiculo {
     Remolque remolque;
     public VehiculoCarga(String matricula, float velocidad) {
@@ -21,7 +23,7 @@ public class VehiculoCarga extends Vehiculo {
 
     @Override
     public String toString() {
-        return "VehiculoCarga{" +
+        return "ejercicio6.VehiculoCarga{" +
                 "matricula='" + matricula + '\'' +
                 ", velocidad=" + velocidad + '\'' +
                 ", remolque=" + remolque +

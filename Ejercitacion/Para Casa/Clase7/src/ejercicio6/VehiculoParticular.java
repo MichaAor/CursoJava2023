@@ -1,3 +1,4 @@
+package ejercicio6;
 
 public class VehiculoParticular extends Vehiculo {
     int numeroPuertas;
@@ -17,7 +18,7 @@ public class VehiculoParticular extends Vehiculo {
 
     @Override
     public String toString() {
-        return "VehiculoParticular{" +
+        return "ejercicio6.VehiculoParticular{" +
                 "numeroPuertas=" + numeroPuertas +
                 ", matricula='" + matricula + '\'' +
                 ", velocidad=" + velocidad +

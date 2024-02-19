@@ -1,3 +1,5 @@
+package ejercicio6;
+
 public class Remolque{
     Integer tipoRemolque = null;
 
@@ -16,7 +18,7 @@ public class Remolque{
     }
     @Override
     public String toString() {
-        return "Remolque{" +
+        return "ejercicio6.Remolque{" +
                 "tipoRemolque=" + tipoRemolque +
                 '}';
     }

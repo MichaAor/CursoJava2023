@@ -1,3 +1,5 @@
+package ejercicio6;
+
 public class Vehiculo {
 
     String matricula;
@@ -35,7 +37,7 @@ public class Vehiculo {
 
     @Override
     public String toString() {
-        return "Vehiculo{" +
+        return "ejercicio6.Vehiculo{" +
                 "matricula='" + matricula + '\'' +
                 ", velocidad=" + velocidad +
                 '}';

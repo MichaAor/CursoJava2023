@@ -12,12 +12,7 @@ public class Empresa {
       this.id = id;
       this.nombre = nombre;
       this.cuit = cuit;
-      this.departamentos = departamentos;
-
       }
-
-
-
     public int getId() {
         return id;
     }
@@ -48,7 +43,10 @@ public class Empresa {
 
     public void setDepartamentos(List<Departamento> departamentos) {
         this.departamentos = departamentos;
-        this.totalDepartamentos = departamentos.size();
+    }
+    public void actualizarDepartamentos(List<Departamento> departamentos) {
+        this.setDepartamentos(departamentos);
+        this.setTotalDepartamentos(departamentos.size());
         for (int i = 0; i < departamentos.size(); i++) {
             totalEmpleados += departamentos.get(i).getTotalEmpleados();
         }
