@@ -7,8 +7,10 @@ public abstract class Reserva {
     private LocalDate fechaInicio;
     private LocalDate fechaFin;
     private Float costoTotal;
+    public Reserva(){
 
-    public void Reserva(String nombreCliente, LocalDate fechaInicio, LocalDate fechaFin, Float costoTotal) {
+    }
+    public Reserva(String nombreCliente, LocalDate fechaInicio, LocalDate fechaFin, Float costoTotal) {
         this.nombreCliente = nombreCliente;
         this.fechaInicio = fechaInicio;
         this.fechaFin = fechaFin;

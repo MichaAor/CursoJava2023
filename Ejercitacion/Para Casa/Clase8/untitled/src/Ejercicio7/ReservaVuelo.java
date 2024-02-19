@@ -6,8 +6,8 @@ public class ReservaVuelo extends Reserva{
     String aerolinea;
     int numeroVuelo;
 
-    public void ReservaVuelo(String aerolinea, int numeroVuelo, String nombreCliente, LocalDate fechaInicio, LocalDate fechaFin, Float costoTotal) {
-        //Reserva(nombreCliente,fechaInicio,fechaFin,costoTotal);
+    public ReservaVuelo(String aerolinea, int numeroVuelo, String nombreCliente, LocalDate fechaInicio, LocalDate fechaFin, Float costoTotal) {
+        super(nombreCliente,fechaInicio,fechaFin,costoTotal);
         this.aerolinea = aerolinea;
         this.numeroVuelo = numeroVuelo;
     }
@@ -20,8 +20,7 @@ public class ReservaVuelo extends Reserva{
                 '}';
     }
     public void mostrarDetalles(){
-        super.toString();
-        this.toString();
+        System.out.println(super.toString() +  this.toString());
     }
 
 }

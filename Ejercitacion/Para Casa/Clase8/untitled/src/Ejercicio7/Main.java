@@ -4,11 +4,17 @@ import java.time.LocalDate;
 
 public class Main {
     public static void main(String[] args) {
-        LocalDate fechaInicio = LocalDate.of(2024, 2, 13);
-        LocalDate fechaFin = LocalDate.of(2024, 2, 25);
-
-        ReservaHotel miReservaHotel = new ReservaHotel("Corregidor Hotel","Jose Macias",fechaInicio,fechaFin,2500);
-        ReservaVuelo miReservaVuelo = new ReservaVuelo("Turkish Airline","Jose Macias",fechaInicio,fechaFin,2500);
+        ReservaHotel miReservaHotel = new ReservaHotel("Jose Macias",
+                                                       LocalDate.now(),
+                                                       LocalDate.now().plusDays(45),
+                                              2500f,
+                                            "Corregidor Hotel");
+        ReservaVuelo miReservaVuelo = new ReservaVuelo("Turkish Airline",
+                                                     2,
+                                                     "Jose Macias",
+                                                      LocalDate.now(),
+                                                      LocalDate.now(),
+                                                      2500f);
 
         miReservaHotel.mostrarDetalles();
         miReservaVuelo.mostrarDetalles();

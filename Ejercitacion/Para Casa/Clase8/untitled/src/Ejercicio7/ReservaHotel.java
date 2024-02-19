@@ -6,8 +6,8 @@ public class ReservaHotel extends Reserva{
 
     String nombreHotel;
 
-    public void ReservaHotel(String nombreHotel, String nombreCliente, LocalDate fechaInicio, LocalDate fechaFin, Float costoTotal) {
-        super.Reserva(nombreCliente,fechaInicio,fechaFin,costoTotal);
+    public ReservaHotel(String nombreCliente, LocalDate fechaInicio, LocalDate fechaFin, Float costoTotal,String nombreHotel) {
+        super(nombreCliente,fechaInicio,fechaFin,costoTotal);
         this.nombreHotel = nombreHotel;
     }
 
@@ -19,7 +19,6 @@ public class ReservaHotel extends Reserva{
     }
 
     public void mostrarDetalles(){
-        super.toString();
-        this.toString();
+        System.out.println(super.toString() +  this.toString());
     }
 }
