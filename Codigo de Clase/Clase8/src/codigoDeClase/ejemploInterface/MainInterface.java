@@ -1,5 +1,7 @@
 package codigoDeClase.ejemploInterface;
 
+import java.util.*;
+
 // *Simulación de evento.
 public class MainInterface {
     public static void main(String[] args) {
@@ -12,5 +14,5 @@ public class MainInterface {
         FabricanteDeVehiculos fabricanteDeBicicletas = new FabricaDeBicicletas();
         String bicicleta = fabricanteDeBicicletas.fabricar();
         System.out.println("¡La otra persona tiene una bicicleta! " + bicicleta);
-    }    
+    }
 }
