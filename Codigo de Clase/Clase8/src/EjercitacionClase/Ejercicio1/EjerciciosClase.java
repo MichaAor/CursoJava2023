@@ -15,8 +15,27 @@ public class EjerciciosClase {
 ?   la evaluación de desempeño.
 ? c) Implementa subclases concretas como Desarrollador, Diseñador, y Gerente que hereden de la clase Empleado.
 ? d) Agrega un método realizarEvaluacion() en la clase Empleado para simular el proceso de evaluación de desempeño.
-? e) En el programa principal, crea instancias de diferentes empleados, realiza evaluaciones de desempeño 
+? e) En el programa principal, crea instancias de diferentes empleados, realiza evaluaciones de desempeño
 ?   y muestra sus salarios calculados.
 */
+
+
+    Empleado juniorJava = new Desarrollador();
+    Empleado seniorJava = new Desarrollador();
+
+    juniorJava.setNombre("Juan Cars");
+    juniorJava.setNivel("junior");
+    juniorJava.setSalarioBase(4000);
+    juniorJava.realizarEvaluacion("desempeño_medio");
+    System.out.println("El salario del " + juniorJava.getNivel() +" developer :" + juniorJava.getNombre() + " cuyo desempeño fue: " + juniorJava.obtenerEvaluacion()+ " es: " + juniorJava.calcularSalario());
+
+    seniorJava.setNombre("Ernesto Figueras");
+    seniorJava.setNivel("senior");
+    seniorJava.setSalarioBase(4000);
+    seniorJava.realizarEvaluacion("desempeño_alto");
+    System.out.println("El salario del " + seniorJava.getNivel() +" developer :" + seniorJava.getNombre() + " cuyo desempeño fue: " + seniorJava.obtenerEvaluacion()+ " es: " + seniorJava.calcularSalario());
+
+
     }
+
 }
