@@ -7,11 +7,11 @@ public class Disenador extends Empleado {
     final float COEFICIENTEDISENADOR = 8.5f;
     public float calcularSalario() {
         if (this.nivel == "junior") {
-            return (salarioBase * COEFICIENTEJUNIOR * evaluacionDesempeno * COEFICIENTEDISENADOR);
+            return (salarioBase * evaluacionDesempeno * COEFICIENTEDISENADOR);
         } else if (this.nivel == "semisenior") {
-            return (salarioBase * COEFICIENTESEMISENIOR * evaluacionDesempeno * COEFICIENTEDISENADOR);
+            return (salarioBase * evaluacionDesempeno * COEFICIENTEDISENADOR);
         } else if (this.nivel == "senior") {
-            return (salarioBase * COEFICIENTESENIOR * evaluacionDesempeno * COEFICIENTEDISENADOR);
+            return (salarioBase * evaluacionDesempeno * COEFICIENTEDISENADOR);
         }
         return(0);
     }

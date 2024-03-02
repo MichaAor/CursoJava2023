@@ -13,9 +13,6 @@ public abstract class Empleado {
     float salarioBase;
     String nivel; //junior, semisenior, senior
     int evaluacionDesempeno; // 1=desempeño_bajo/2=desempeño_medio/3=desempeño_alto
-    final float COEFICIENTEJUNIOR = 1.5f;
-    final float COEFICIENTESEMISENIOR = 3.5f;
-    final float COEFICIENTESENIOR = 9.5f;
 
     public abstract float calcularSalario();
 
@@ -66,7 +63,4 @@ public abstract class Empleado {
             return ("parametro erroneo en evaluacion de desempeño");
         }
     }
-
-
-
 }
