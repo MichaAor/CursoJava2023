@@ -9,7 +9,7 @@ public class MainEjArray {
 
 ? Ejercicio 1: Estadisticas de un Array
 *   Escribe un programa en Java que declare y inicialice un array de números enteros. Luego, calcula y 
-*   muestre las estadisticas estandar que manejamos durante el curso..
+*   muestre las estadisticas estandar que manejamos durante el curso.
 
 ? Ejercicio 2: Encontrar el Mayor y Menor
 *   Crea un programa que genere un array de números aleatorios. Luego, encuentra y muestra el valor máximo 

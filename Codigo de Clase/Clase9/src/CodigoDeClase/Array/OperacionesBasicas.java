@@ -6,7 +6,7 @@ public class OperacionesBasicas {
         int[] numeros = {1, 2, 3, 4, 5};
 
 //? Acceso a Elementos: Recuperar o modificar el valor de un elemento en el array.
-        int primerElemento = numeros[0];  //* Acceder al primer elemento
+        int primerElemento = numeros[0];  // * Acceder al primer elemento
 
 //? Longitud del Array: Obtener la cantidad total de elementos en el array.
         int longitud = numeros.length;
