@@ -12,7 +12,7 @@ public class ArraysMetodos {
         System.out.println("\033[36m" + "╚═══════════════════════════════╝" + "\u001B[0m");
 
     //! ARRAY DEL EJEMPLO.
-    int[] arr = {4, 2, 7, 1, 9};
+    int[] arr = ArrayUtil.inicializarArray(5);
         System.out.println("\033[34m" + "Array Original (arr): " + ArrayUtil.toStringArrayInt(arr) +"\u001B[0m");
 
     //? Ordenación Completa
@@ -21,11 +21,12 @@ public class ArraysMetodos {
         System.out.println("\033[32m" + "Resultado: " + ArrayUtil.toStringArrayInt(arr) +"\u001B[0m");
 
     //! Reestablezco el valor del array.
-    arr = new int[]{4, 2, 7, 1, 9};
+    arr = ArrayUtil.inicializarArray(6);
 
     //? Ordenación con limites
         System.out.println("\033[35m" + "═══ Arrays.sort(arr,inicion,fin) ═══" + "\u001B[0m");
-        Arrays.sort(arr,2,4);
+        System.out.println("\033[34m" + "Array Original (arr): " + ArrayUtil.toStringArrayInt(arr) +"\u001B[0m");
+        Arrays.sort(arr,2,5);
         System.out.println("\033[32m" + "Resultado: " + ArrayUtil.toStringArrayInt(arr) +"\u001B[0m");
 
     //? Búsqueda Binaria
