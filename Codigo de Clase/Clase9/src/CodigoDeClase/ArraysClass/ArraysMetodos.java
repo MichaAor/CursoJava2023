@@ -13,21 +13,21 @@ public class ArraysMetodos {
 
     //! ARRAY DEL EJEMPLO.
     int[] arr = ArrayUtil.inicializarArray(5);
-        System.out.println("\033[34m" + "Array Original (arr): " + ArrayUtil.toStringArrayInt(arr) +"\u001B[0m");
 
     //? Ordenación Completa
         System.out.println("\033[35m" + "═══ Arrays.sort(arr) ═══" + "\u001B[0m");
+        System.out.println("\033[34m" + "Array Original (arr): " + ArrayUtil.toStringArrayInt(arr) +"\u001B[0m");
         Arrays.sort(arr);
         System.out.println("\033[32m" + "Resultado: " + ArrayUtil.toStringArrayInt(arr) +"\u001B[0m");
 
     //! Reestablezco el valor del array.
-    arr = ArrayUtil.inicializarArray(6);
+    int[] arr2 = ArrayUtil.inicializarArray(10);
 
     //? Ordenación con limites
         System.out.println("\033[35m" + "═══ Arrays.sort(arr,inicion,fin) ═══" + "\u001B[0m");
-        System.out.println("\033[34m" + "Array Original (arr): " + ArrayUtil.toStringArrayInt(arr) +"\u001B[0m");
-        Arrays.sort(arr,2,5);
-        System.out.println("\033[32m" + "Resultado: " + ArrayUtil.toStringArrayInt(arr) +"\u001B[0m");
+        System.out.println("\033[34m" + "Array Original (arr): " + ArrayUtil.toStringArrayInt(arr2) +"\u001B[0m");
+        Arrays.sort(arr2,0,4);
+        System.out.println("\033[32m" + "Resultado: " + ArrayUtil.toStringArrayInt(arr2) +"\u001B[0m");
 
     //? Búsqueda Binaria
         System.out.println("\033[35m" + "═══ Arrays.binarySearch(arr, elementoBuscar) ═══" + "\u001B[0m");
@@ -37,12 +37,12 @@ public class ArraysMetodos {
         System.out.println("\033[32m" + "Posicion donde se encuentra: "+ "\u001B[0m" + indice );
 
     //? Comparación
-        System.out.println("\033[35m" + "\n═══ Arrays.equals(arr, arr2) ═══" + "\u001B[0m");
+        System.out.println("\033[35m" + "\n═══ Arrays.equals(arr, arr3) ═══" + "\u001B[0m");
     //! Declaro e Inicializo otro Array para comparar.
-    int[] arr2 = {9, 6, 8, 3, 5};
-        boolean sonIguales = Arrays.equals(arr, arr2);
+    int[] arr3 = {9, 6, 8, 3, 5};
+        boolean sonIguales = Arrays.equals(arr, arr3);
         System.out.print("\033[37m" + "arr: " + ArrayUtil.toStringArrayInt(arr) +"\u001B[0m");
-        System.out.print("\033[37m" + "arr2: " + ArrayUtil.toStringArrayInt(arr2) +"\u001B[0m");
+        System.out.print("\033[37m" + "arr3: " + ArrayUtil.toStringArrayInt(arr3) +"\u001B[0m");
         System.out.println("\033[32m" + "Ambos Arrays son iguales? "+ "\u001B[0m" + sonIguales );
 
     //? Copiado
