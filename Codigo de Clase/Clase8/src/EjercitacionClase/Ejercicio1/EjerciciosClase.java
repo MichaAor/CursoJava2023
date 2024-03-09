@@ -31,7 +31,7 @@ public class EjerciciosClase {
 
     seniorJava.setNombre("Ernesto Figueras");
     seniorJava.setNivel("senior");
-    seniorJava.setSalarioBase(4000);
+    seniorJava.setSalarioBase(9000);
     seniorJava.realizarEvaluacion("desempeño_alto");
     System.out.println("El salario del " + seniorJava.getNivel() +" developer :" + seniorJava.getNombre() + " cuyo desempeño fue: " + seniorJava.obtenerEvaluacion()+ " es: " + seniorJava.calcularSalario());
 
