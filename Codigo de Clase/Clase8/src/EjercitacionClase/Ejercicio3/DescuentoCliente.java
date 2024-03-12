@@ -12,7 +12,7 @@ package EjercitacionClase.Ejercicio3;
  * *       descuentos específicos según el tipo de cliente.
  */
 public interface DescuentoCliente {
-    static double ESCUENTO_GENERAL = 1000f;
+    static double DESCUENTO_GENERAL = 1000d;
     public double aplicarDescuento(double monto);
     public void mostrarDetalles();
 }

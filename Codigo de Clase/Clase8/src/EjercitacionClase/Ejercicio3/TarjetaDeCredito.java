@@ -21,6 +21,6 @@ public class TarjetaDeCredito implements MetodoPago {
             }
     }
     public void mostrarDetalles(){
-        System.out.println("detalles no se que va aca.");
+        System.out.println("Detalle de pago con Tarjeta. Saldo en cuenta: " + limiteCredito);
     }
 }

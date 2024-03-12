@@ -21,6 +21,6 @@ public class PagoEfectivo implements MetodoPago{
         }
     }
     public void mostrarDetalles(){
-        System.out.println("Detalle de pago en Efectivo, saldo: " + montoRecibido);
+        System.out.println("Detalle de pago en Efectivo. Saldo en cuenta: " + montoRecibido);
     }
 }

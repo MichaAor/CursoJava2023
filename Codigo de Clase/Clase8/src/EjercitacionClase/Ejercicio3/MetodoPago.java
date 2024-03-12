@@ -7,7 +7,6 @@ package EjercitacionClase.Ejercicio3;
  * *   Método default mostrarDetalles() que imprima detalles generales del método de pago.
  */
 public interface MetodoPago {
-    String metodoPago ="Cash";
     static double TARIFA_TRANSACCION = 100F;
     public void realizarPago(double montoPago);
     public void mostrarDetalles();
