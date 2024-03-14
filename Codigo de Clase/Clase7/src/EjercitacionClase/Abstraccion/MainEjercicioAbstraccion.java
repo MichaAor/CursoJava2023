@@ -5,5 +5,10 @@ package EjercitacionClase.Abstraccion;
 */
 public class MainEjercicioAbstraccion {
     public static void main(String[] args) {
+        Helado miHelado1 = new Cucurucho();
+        miHelado1.crearSabor("Chocolate");
+
+        Helado miHelado2 = new Pote();
+        miHelado2.crearSabor("Vainilla");
     }
 }
