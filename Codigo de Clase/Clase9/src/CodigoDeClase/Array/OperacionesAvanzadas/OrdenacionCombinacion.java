@@ -102,9 +102,5 @@ public class OrdenacionCombinacion{
 ? Combinación:
 *   - Después de que las llamadas recursivas han dividido y ordenado las mitades, se realiza la fase de combinación.
 *   - La función merge se encarga de combinar las dos mitades ordenadas en un array más grande y completamente ordenado.
-
-?Retorno:
-*   - La función algoritmo ahora retorna, y si hay una llamada recursiva anterior aún pendiente (en un nivel más alto de la recursión), 
-*       esa llamada continúa con el proceso de combinación.
 */    
 }

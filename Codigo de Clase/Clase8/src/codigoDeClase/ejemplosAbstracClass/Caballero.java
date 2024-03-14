@@ -16,7 +16,12 @@ public class Caballero extends Personaje{
         this.fuerza = fuerza;
     }
 
-//? Implementamos o desarrollamos el método abstracto.
+/*
+? Como implementar metodos abstractos
+*   Cuando heredas de una clase abstracta, debes proporcionar implementaciones
+*   concretas para todos sus metodos abstractos
+! NO SE DEBE OLVIDAR EL @Override.
+*/
     @Override
     public void atacar(Personaje personaje) {
         personaje.setVida(personaje.getVida() - this.calcularDanioTotal());

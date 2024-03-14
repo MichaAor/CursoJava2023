@@ -10,11 +10,23 @@ public class ArrayUtil {
 
     public static void mostrarArrayInt(int[] array){
         for (int i = 0; i < array.length; i++) {
-            System.out.print("[" + array[i] + "]");
+            System.out.print("\033[33m" + "[" + array[i] + "]" + "\u001B[0m");
             if (i < array.length - 1) {
                 System.out.print("-");
             }
         }
+    }
+
+    public static String toStringArrayInt(int[] array){
+        String arr = "";
+        for (int i = 0; i < array.length; i++) {
+            arr += "\033[31m" + "[" + array[i] + "]" + "\u001B[0m";
+            if (i < array.length - 1) {
+                arr += "-";
+            }
+        }
+        arr += "\n";
+        return arr;
     }
 
     public static int[] inicializarArray(int tamanio){

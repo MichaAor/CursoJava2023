@@ -60,6 +60,10 @@ public abstract class Personaje {
                 "\n Nivel: " + this.nivel +
                 "\n Vida: " + this.vida;
     }
-
+/*
+? Como declarar Metodos Abstractos en una clase Abstracta
+*   Un metodo abstracto se declara sin proporcionar una implementacion.
+*   Esto se hace usando la palabra
+*/
     public abstract void atacar(Personaje personaje);
 }
