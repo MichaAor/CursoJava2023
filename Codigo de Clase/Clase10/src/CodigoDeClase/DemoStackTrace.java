@@ -17,7 +17,7 @@ public class DemoStackTrace {
 *   Dando como resultado la siguiente traza:
 !        ┌──> CORRESPONDE AL PUNTO DE EJECUCION EL CUAL TIENE: ["NombreRama" TipoExceptionLanzada]
 !   Exception in thread "main" java.lang.ArithmeticException:
-?	    at CodigoDeClase.DemoStackTrace.main(DemoStackTrace.java:11)
+?	    at CodigoDeClase.DemoStackTrace.main(DemoStackTrace.java:15)
 ?        └──> CORRESPONDE AL MARCO DE PILA EL CUAL DETALLA: [Paquete.clase.metodo:LineaDeCodigoDondeLanzoException]
 */
 

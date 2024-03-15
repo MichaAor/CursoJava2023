@@ -32,7 +32,7 @@ public class DemoTryCatchSimple {
             System.out.println("\033[31m" + "\n║  Bloque Try - INICIO  ║" + "\u001B[0m");
 
             //! Código que puede lanzar una excepción
-            int resultado = 10 / 2;
+            int resultado = 10 / 0;
             System.out.println("\n*) Resultado de la división: " + resultado);
 
             System.out.println("\033[31m" + "\n║  Bloque Try - FIN  ║" + "\u001B[0m");
