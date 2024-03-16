@@ -11,10 +11,10 @@ public class DemoTiposExcepciones {
         System.out.println("\033[36m" + "╚═════════════════════════════╝" + "\u001B[0m");
 
         //! Operación que puede lanzar una Excepción controlada (FileNotFoundException)
-        leerArchivoNoExistente();
+        //leerArchivoNoExistente();
 
         //! Operación que puede lanzar una Excepción No Controlada (ArithmeticException)
-        dividirPorCero();
+        //dividirPorCero();
 
         //! Operación que puede llevar a un Error (OutOfMemoryError)
         crearListaInfinita();
