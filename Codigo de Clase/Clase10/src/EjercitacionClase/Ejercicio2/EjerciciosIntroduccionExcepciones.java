@@ -35,6 +35,8 @@ public class EjerciciosIntroduccionExcepciones {
             System.out.println("invocacion 3, sin error");
         }
         resultado = numerador / denominador;
+
+        //Si se produce la excepcion no se ejecuta nunca el metodo invocacion4()
         invocacion4();
     }
 
