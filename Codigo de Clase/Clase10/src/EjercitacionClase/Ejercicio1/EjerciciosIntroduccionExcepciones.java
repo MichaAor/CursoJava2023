@@ -34,7 +34,7 @@ public class EjerciciosIntroduccionExcepciones {
 
             if (numerob == 0) {
                 //! Lanzamiento de la excepción personalizada con un mensaje descriptivo
-                throw new DenominadorCeroException("El deniminador debe ser distinto de cero.");
+                throw new DenominadorCeroException("El denominador debe ser distinto de cero.");
             }
         }
           catch (NumeroNoPositivoException e) {

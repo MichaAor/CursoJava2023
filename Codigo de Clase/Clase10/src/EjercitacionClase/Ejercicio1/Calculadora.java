@@ -15,7 +15,7 @@ public class Calculadora {
   public float restar(float numeroa, float numerob){
         return (numeroa - numerob);
     }
-//Solo permite devidir numeros naturales.
+//Solo permite devidir numeros positivos.
     public float dividir(float numeroa, float numerob){
         return (numeroa / numerob);
 
